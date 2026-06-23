@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Learning Arcade</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#1C2452;--navy2:#2C3573;--coral:#F96167;--gold:#F7B538;
+  --ink:#23272E;--muted:#6B7280;--paper:#F6F7FB;--white:#ffffff;
+  --green:#2BA84A;--green-bg:#EAF7EE;--red-bg:#FEF0F0;--blue-bg:#EBF3FD;
+}
+body{background:var(--paper);font-family:'Segoe UI',Arial,sans-serif;color:var(--ink);min-height:100vh}
+
+/* ---- HEADER ---- */
+.header{background:var(--navy);padding:18px 32px;display:flex;align-items:center;justify-content:space-between}
+.header-title{color:#fff;font-size:22px;font-weight:700;letter-spacing:-0.5px}
+.header-sub{color:#8B96C9;font-size:13px;margin-top:2px}
+.total-xp{background:rgba(255,255,255,0.1);border-radius:999px;padding:8px 18px;color:var(--gold);font-weight:700;font-size:15px}
+
+/* ---- TAB BAR ---- */
+.tab-bar{display:flex;gap:0;background:var(--white);border-bottom:2px solid #E5E7EB;padding:0 24px;overflow-x:auto}
+.tab-btn{padding:14px 22px;border:none;background:none;color:var(--muted);font-size:14px;font-weight:500;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:all .15s}
+.tab-btn:hover{color:var(--navy)}
+.tab-btn.active{color:var(--coral);border-bottom-color:var(--coral);font-weight:700}
+
+/* ---- LAYOUT ---- */
+.content{max-width:820px;margin:0 auto;padding:32px 24px}
+.game-panel{display:none}
+.game-panel.active{display:block}
+
+/* ---- CARDS ---- */
+.card{background:var(--white);border-radius:16px;border:1px solid #E5E7EB;padding:28px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.card-title{font-size:20px;font-weight:700;color:var(--navy)}
+.card-sub{font-size:14px;color:var(--muted);margin-bottom:18px;line-height:1.5}
+
+/* ---- SCORE ---- */
+.score-pill{background:var(--navy);color:var(--gold);border-radius:999px;padding:6px 16px;font-weight:700;font-size:14px}
+
+/* ---- PROGRESS ---- */
+.prog-wrap{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.prog-bar{flex:1;height:8px;background:#E5E7EB;border-radius:4px;overflow:hidden}
+.prog-fill{height:100%;background:var(--coral);border-radius:4px;transition:width .35s ease}
+.prog-label{font-size:12px;color:var(--muted);white-space:nowrap}
+
+/* ---- CHALLENGE BOX ---- */
+.challenge-box{background:var(--paper);border-radius:12px;padding:18px 20px;font-size:16px;font-weight:600;color:var(--navy);line-height:1.55;margin-bottom:12px;border-left:4px solid var(--coral)}
+.hint-box{background:var(--blue-bg);border-radius:10px;padding:12px 16px;font-size:13px;color:#1a6aab;margin-bottom:14px;display:flex;gap:8px;align-items:flex-start}
+.hint-icon{font-size:16px;margin-top:1px}
+
+/* ---- TEXTAREA ---- */
+textarea{width:100%;min-height:90px;border-radius:10px;border:1.5px solid #D1D5DB;padding:12px 14px;font-size:14px;color:var(--ink);background:var(--white);resize:vertical;font-family:inherit;line-height:1.5;transition:border-color .15s}
+textarea:focus{outline:none;border-color:var(--coral)}
+
+/* ---- BUTTONS ---- */
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btn{padding:10px 20px;border-radius:10px;border:2px solid #E5E7EB;background:var(--white);color:var(--ink);font-size:14px;font-weight:600;cursor:pointer;transition:all .15s}
+.btn:hover{border-color:var(--coral);color:var(--coral)}
+.btn-primary{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn-primary:hover{background:var(--navy2);border-color:var(--navy2);color:#fff}
+.btn-rate{font-size:15px;padding:10px 18px}
+.btn-next{background:var(--coral);color:#fff;border-color:var(--coral);margin-top:14px;display:none}
+.btn-next:hover{background:#e0454b;border-color:#e0454b;color:#fff}
+
+/* ---- FEEDBACK ---- */
+.feedback{border-radius:10px;padding:14px 16px;font-size:14px;margin-top:14px;line-height:1.5;display:none}
+.feedback.good{background:var(--green-bg);color:#1a6e32;display:block}
+.feedback.bad{background:var(--red-bg);color:#9b1d1d;display:block}
+.feedback.info{background:var(--blue-bg);color:#1a4f8a;display:block}
+
+/* ---- CHIPS ---- */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{padding:8px 16px;border-radius:999px;font-size:14px;cursor:pointer;border:2px solid #E5E7EB;background:var(--white);color:var(--ink);transition:all .15s;font-weight:500;user-select:none}
+.chip:hover{border-color:var(--navy);color:var(--navy)}
+.chip.selected{background:var(--navy);color:#fff;border-color:var(--navy)}
+.chip.correct{background:var(--green-bg);color:#1a6e32;border-color:#6fcf8f}
+.chip.wrong{background:var(--red-bg);color:#9b1d1d;border-color:#f7a8a8}
+.chip.correct-hl{background:var(--green);color:#fff;border-color:var(--green)}
+
+/* ---- MYTH BUTTONS ---- */
+.myth-opt{width:100%;padding:14px 18px;text-align:left;border:2px solid #E5E7EB;border-radius:12px;background:var(--white);color:var(--ink);font-size:14px;font-weight:500;cursor:pointer;margin-bottom:10px;transition:all .15s;line-height:1.4}
+.myth-opt:hover{border-color:var(--navy);background:var(--paper)}
+.myth-opt.correct{background:var(--green-bg);color:#1a6e32;border-color:#6fcf8f;font-weight:700}
+.myth-opt.wrong{background:var(--red-bg);color:#9b1d1d;border-color:#f7a8a8}
+
+/* ---- BADGES ---- */
+.badge-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;margin-top:6px}
+.badge-card{border-radius:14px;border:2px solid #E5E7EB;padding:20px 16px;text-align:center;background:var(--white)}
+.badge-card.earned{border-color:var(--gold);background:#FFFBEF}
+.badge-icon{font-size:36px;display:block;margin-bottom:8px}
+.badge-name{font-size:13px;font-weight:700;color:var(--navy)}
+.badge-status{font-size:11px;color:var(--muted);margin-top:3px}
+.badge-card.earned .badge-status{color:var(--gold);font-weight:700}
+
+/* ---- SKILL BARS ---- */
+.skill-row{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.skill-label{width:100px;font-size:13px;color:var(--muted);font-weight:600}
+.skill-track{flex:1;height:22px;background:#E5E7EB;border-radius:6px;overflow:hidden}
+.skill-fill{height:100%;border-radius:6px;display:flex;align-items:center;padding:0 10px;font-size:12px;font-weight:700;color:#fff;transition:width .5s ease;min-width:30px}
+
+/* ---- DONE BANNER ---- */
+.done-banner{background:linear-gradient(135deg,var(--navy),var(--navy2));border-radius:14px;padding:22px 24px;color:#fff;text-align:center;margin-top:16px}
+.done-banner h3{font-size:18px;margin-bottom:6px}
+.done-banner p{font-size:14px;color:#CADCFC}
+
+/* ---- GAME OVER ---- */
+#g-badges .big-score{font-size:52px;font-weight:800;color:var(--navy);line-height:1}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="header-title">🕹️ AI Learning Arcade</div>
+    <div class="header-sub">5 mini-games · learn AI, prompts & more</div>
+  </div>
+  <div class="total-xp">⭐ <span id="total-xp">0</span> XP total</div>
+</div>
+
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('promptcraft',this)">🎯 Prompt Craft</button>
+  <button class="tab-btn" onclick="switchTab('trashcan',this)">🗑️ Trash Can</button>
+  <button class="tab-btn" onclick="switchTab('myths',this)">💭 Myth Buster</button>
+  <button class="tab-btn" onclick="switchTab('lab',this)">🧪 Prompt Lab</button>
+  <button class="tab-btn" onclick="switchTab('badges',this)">🏆 Badges</button>
+</div>
+
+<div class="content">
+
+<!-- ===== GAME 1: PROMPT CRAFT ===== -->
+<div id="g-promptcraft" class="game-panel active">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">🎯 Prompt Craft</span>
+      <span class="score-pill">⭐ <span id="pc-score">0</span> pts</span>
+    </div>
+    <p class="card-sub">Read the challenge. Write the best prompt you can — then rate yourself honestly.</p>
+    <div class="prog-wrap">
+      <div class="prog-bar"><div class="prog-fill" id="pc-prog" style="width:0%"></div></div>
+      <span class="prog-label" id="pc-plab">1 / 5</span>
+    </div>
+    <div class="challenge-box" id="pc-q"></div>
+    <div class="hint-box"><span class="hint-icon">💡</span><span id="pc-hint"></span></div>
+    <textarea id="pc-input" placeholder="Write your prompt here…"></textarea>
+    <p style="font-size:13px;color:var(--muted);margin-top:14px;margin-bottom:6px">How good was your prompt?</p>
+    <div class="btn-row">
+      <button class="btn btn-rate" onclick="ratePC(1)">😐 Basic</button>
+      <button class="btn btn-rate" onclick="ratePC(2)">👍 Good</button>
+      <button class="btn btn-rate" onclick="ratePC(3)">🔥 Great!</button>
+    </div>
+    <div class="feedback" id="pc-fb"></div>
+    <button class="btn btn-next" id="pc-next" onclick="nextPC()">Next challenge →</button>
+    <div id="pc-done" style="display:none">
+      <div class="done-banner"><h3>🎯 Prompt Craft complete!</h3><p>You earned the Prompt Crafter badge!</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== GAME 2: TRASH CAN ===== -->
+<div id="g-trashcan" class="game-panel">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">🗑️ Prompt Trash Can</span>
+      <span class="score-pill">⭐ <span id="tc-score">0</span> pts</span>
+    </div>
+    <p class="card-sub">Tap the weak, vague words that ruin the prompt. Avoid tapping the useful ones!</p>
+    <div class="prog-wrap">
+      <div class="prog-bar"><div class="prog-fill" id="tc-prog" style="width:0%"></div></div>
+      <span class="prog-label" id="tc-plab">1 / 5</span>
+    </div>
+    <div class="challenge-box" id="tc-q"></div>
+    <div class="chips" id="tc-chips"></div>
+    <div class="btn-row"><button class="btn btn-primary" onclick="checkTC()">Check 🗑️</button></div>
+    <div class="feedback" id="tc-fb"></div>
+    <button class="btn btn-next" id="tc-next" onclick="nextTC()">Next round →</button>
+    <div id="tc-done" style="display:none">
+      <div class="done-banner"><h3>🗑️ Trash Detected!</h3><p>You earned the Trash Detector badge!</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== GAME 3: MYTH BUSTER ===== -->
+<div id="g-myths" class="game-panel">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">💭 AI Myth Buster</span>
+      <span class="score-pill">⭐ <span id="mb-score">0</span> pts</span>
+    </div>
+    <p class="card-sub">True fact or total myth? Test what you know about AI!</p>
+    <div class="prog-wrap">
+      <div class="prog-bar"><div class="prog-fill" id="mb-prog" style="width:0%"></div></div>
+      <span class="prog-label" id="mb-plab">1 / 6</span>
+    </div>
+    <div class="challenge-box" id="mb-q"></div>
+    <button class="myth-opt" id="mb-a" onclick="answerMB(0)"></button>
+    <button class="myth-opt" id="mb-b" onclick="answerMB(1)"></button>
+    <div class="feedback" id="mb-fb"></div>
+    <button class="btn btn-next" id="mb-next" onclick="nextMB()">Next question →</button>
+    <div id="mb-done" style="display:none">
+      <div class="done-banner"><h3>💭 Myths Busted!</h3><p>You earned the Myth Buster badge!</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== GAME 4: PROMPT LAB ===== -->
+<div id="g-lab" class="game-panel">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">🧪 Prompt Lab</span>
+      <span class="score-pill">⭐ <span id="pl-score">0</span> pts</span>
+    </div>
+    <p class="card-sub">Given the goal, tap ALL the ingredients that belong in the perfect prompt.</p>
+    <div class="prog-wrap">
+      <div class="prog-bar"><div class="prog-fill" id="pl-prog" style="width:0%"></div></div>
+      <span class="prog-label" id="pl-plab">1 / 4</span>
+    </div>
+    <div class="challenge-box" id="pl-goal"></div>
+    <div class="chips" id="pl-chips"></div>
+    <div class="btn-row"><button class="btn btn-primary" onclick="checkLab()">Check recipe 🧪</button></div>
+    <div class="feedback" id="pl-fb"></div>
+    <button class="btn btn-next" id="pl-next" onclick="nextLab()">Next level →</button>
+    <div id="pl-done" style="display:none">
+      <div class="done-banner"><h3>🧪 Lab Complete!</h3><p>You earned the Lab Rat badge!</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== BADGES ===== -->
+<div id="g-badges" class="game-panel">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">🏆 Your Badges</span>
+      <span class="score-pill">⭐ <span id="bxp">0</span> XP</span>
+    </div>
+    <p class="card-sub">Complete each game to unlock your badge. Collect all 4!</p>
+    <div class="badge-grid" id="badge-grid"></div>
+  </div>
+  <div class="card">
+    <div class="card-title" style="margin-bottom:16px">Skill Progress</div>
+    <div id="skill-bars"></div>
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<script>
+var scores={pc:0,tc:0,mb:0,pl:0};
+var badges={pc:false,tc:false,mb:false,pl:false};
+
+function switchTab(id,btn){
+  document.querySelectorAll('.game-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('g-'+id).classList.add('active');
+  btn.classList.add('active');
+  if(id==='badges')renderBadges();
+  updateTotalXP();
+}
+function updateTotalXP(){
+  var t=scores.pc+scores.tc+scores.mb+scores.pl;
+  document.getElementById('total-xp').textContent=t;
+}
+
+/* ========== GAME 1 ========== */
+var pcData=[
+  {q:"You want AI to explain what a 'black hole' is, simple enough for a 10-year-old.",
+   hint:"Include ROLE (science teacher), AUDIENCE (10-year-old), and FORMAT (simple sentences).",
+   tips:{1:"Add 'Act as a science teacher for kids' and say 'use simple words with no jargon'.",
+         2:"Nice! Try also asking for '3 short sentences' to control the length.",
+         3:"Excellent! Role + audience + format is the perfect combination here."}},
+  {q:"You want a funny birthday message for your friend who is obsessed with pizza.",
+   hint:"Mention TONE (funny), THEME (pizza), and FORMAT (birthday message/card).",
+   tips:{1:"Specify 'funny and playful tone' and mention pizza as a theme explicitly.",
+         2:"Good! You could also ask for '3 different versions' to pick your favourite.",
+         3:"Great detail! Personal context always produces much better creative output."}},
+  {q:"You need a 3-step study plan for a maths test happening in 2 days.",
+   hint:"Include FORMAT (3 steps), CONTEXT (2 days left, maths test), and TASK (study plan).",
+   tips:{1:"Mention the deadline and the exact number of steps — both are key details.",
+         2:"Solid structure! Adding which maths topics to cover makes it even better.",
+         3:"Spot-on — time pressure + subject + step count = a highly effective prompt."}},
+  {q:"You want AI to generate 5 creative names for a dog-walking app.",
+   hint:"Specify NUMBER (5), TYPE (app names), PURPOSE (dog-walking), and TONE (creative).",
+   tips:{1:"Say 'exactly 5 names' and describe the vibe — fun? Professional? Cute?",
+         2:"Good! Mentioning target users (teens? pet owners?) improves the results.",
+         3:"Perfect creative brief! You nailed the number + purpose + tone formula."}},
+  {q:"You want AI to check your essay intro for grammar mistakes only — not change your ideas.",
+   hint:"Give AI a ROLE (editor), say what to DO (fix grammar), and what NOT to change (your ideas).",
+   tips:{1:"Say 'only fix grammar — do not change my ideas or my sentence structures'.",
+         2:"Good! Try also asking it to explain each fix so you can learn from it.",
+         3:"Brilliant — constraining what NOT to do is one of the most powerful prompt tricks."}}
+];
+var pcIdx=0,pcDone=false;
+function initPC(){
+  var d=pcData[pcIdx];
+  document.getElementById('pc-q').textContent=d.q;
+  document.getElementById('pc-hint').textContent=d.hint;
+  document.getElementById('pc-input').value='';
+  document.getElementById('pc-fb').className='feedback';
+  document.getElementById('pc-next').style.display='none';
+  document.getElementById('pc-plab').textContent=(pcIdx+1)+' / '+pcData.length;
+  document.getElementById('pc-prog').style.width=((pcIdx/pcData.length)*100)+'%';
+  pcDone=false;
+}
+function ratePC(r){
+  if(pcDone)return;
+  var txt=document.getElementById('pc-input').value.trim();
+  if(!txt){var f=document.getElementById('pc-fb');f.textContent='✏️ Write a prompt first!';f.className='feedback bad';return;}
+  pcDone=true;
+  var pts=[0,10,20,30][r];
+  scores.pc+=pts; document.getElementById('pc-score').textContent=scores.pc; updateTotalXP();
+  var f=document.getElementById('pc-fb');
+  f.textContent=pcData[pcIdx].tips[r]+' (+'+pts+' pts)';
+  f.className=r===3?'feedback good':r===2?'feedback info':'feedback bad';
+  document.getElementById('pc-next').style.display='inline-block';
+}
+function nextPC(){
+  pcIdx++;
+  if(pcIdx>=pcData.length){
+    document.getElementById('pc-next').style.display='none';
+    document.getElementById('pc-done').style.display='block';
+    badges.pc=true; updateTotalXP();
+  } else initPC();
+}
+initPC();
+
+/* ========== GAME 2 ========== */
+var tcData=[
+  {q:"Tap the weak/vague words: \"Tell me stuff about climate change in general\"",
+   words:[{w:"Tell me",b:false},{w:"stuff",b:true},{w:"about",b:false},{w:"climate change",b:false},{w:"in general",b:true},{w:"things",b:true}],
+   ex:"'Stuff', 'in general', and 'things' are vague filler words — they give AI no direction."},
+  {q:"Find the trash words: \"Just write me something like a poem kinda\"",
+   words:[{w:"Just",b:true},{w:"write",b:false},{w:"something",b:true},{w:"like",b:true},{w:"a poem",b:false},{w:"kinda",b:true}],
+   ex:"'Just', 'something', 'like', and 'kinda' are hedging words that weaken the instruction."},
+  {q:"Which words hurt this prompt? \"Maybe give me some ideas or whatever for a party\"",
+   words:[{w:"Maybe",b:true},{w:"give me",b:false},{w:"some",b:true},{w:"ideas",b:false},{w:"or whatever",b:true},{w:"for a party",b:false}],
+   ex:"'Maybe', 'some', and 'or whatever' signal uncertainty — AI doesn't know what you really want."},
+  {q:"Trash hunt: \"I dunno, like help me somehow with my science homework\"",
+   words:[{w:"I dunno",b:true},{w:"like",b:true},{w:"help me",b:false},{w:"somehow",b:true},{w:"science homework",b:false},{w:"with my",b:false}],
+   ex:"'I dunno', 'like', and 'somehow' are vague openers. Always start with a clear action."},
+  {q:"Find the weak words: \"Try to maybe write something funny-ish for my speech\"",
+   words:[{w:"Try to",b:true},{w:"maybe",b:true},{w:"write",b:false},{w:"something",b:true},{w:"funny-ish",b:true},{w:"for my speech",b:false}],
+   ex:"'Try to', 'maybe', 'something', and 'funny-ish' leave AI guessing. Be precise!"}
+];
+var tcIdx=0,tcSel=[],tcDone=false;
+function initTC(){
+  var d=tcData[tcIdx];
+  document.getElementById('tc-q').textContent=d.q;
+  document.getElementById('tc-fb').className='feedback';
+  document.getElementById('tc-next').style.display='none';
+  document.getElementById('tc-plab').textContent=(tcIdx+1)+' / '+tcData.length;
+  document.getElementById('tc-prog').style.width=((tcIdx/tcData.length)*100)+'%';
+  tcSel=[];tcDone=false;
+  var c=document.getElementById('tc-chips');c.innerHTML='';
+  d.words.forEach(function(w,i){
+    var el=document.createElement('span');
+    el.className='chip';el.textContent=w.w;
+    el.onclick=function(){
+      if(tcDone)return;
+      var si=tcSel.indexOf(i);
+      if(si>-1){tcSel.splice(si,1);el.className='chip';}
+      else{tcSel.push(i);el.className='chip selected';}
+    };
+    c.appendChild(el);
+  });
+}
+function checkTC(){
+  if(tcDone)return;tcDone=true;
+  var d=tcData[tcIdx];
+  var correct=0,total=d.words.filter(w=>w.b).length;
+  var chips=document.getElementById('tc-chips').querySelectorAll('.chip');
+  chips.forEach(function(chip,i){chip.className='chip '+(d.words[i].b?'correct-hl':'correct');});
+  tcSel.forEach(function(i){if(d.words[i].b)correct++;});
+  var pts=Math.round((correct/total)*20);
+  scores.tc+=pts;document.getElementById('tc-score').textContent=scores.tc;updateTotalXP();
+  var f=document.getElementById('tc-fb');
+  f.textContent=d.ex+' (+'+pts+' pts)';
+  f.className=correct===total?'feedback good':'feedback info';
+  document.getElementById('tc-next').style.display='inline-block';
+}
+function nextTC(){
+  tcIdx++;
+  if(tcIdx>=tcData.length){document.getElementById('tc-next').style.display='none';document.getElementById('tc-done').style.display='block';badges.tc=true;updateTotalXP();}
+  else initTC();
+}
+initTC();
+
+/* ========== GAME 3 ========== */
+var mbData=[
+  {q:"AI always gives 100% accurate, factual information.",opts:["TRUE — AI knows everything","MYTH — AI can make things up"],ans:1,ex:"AI can 'hallucinate' — produce convincing but completely wrong facts. Always fact-check important info!"},
+  {q:"The more specific your prompt, the better the AI's answer will be.",opts:["TRUE — detail really helps AI understand you","MYTH — keep prompts short and vague"],ans:0,ex:"Specificity is the #1 skill in prompt engineering. Role + Task + Context + Format = great results."},
+  {q:"AI reads your mind, so you don't need to explain what you want.",opts:["TRUE — AI guesses your intent automatically","MYTH — AI only knows what you actually write"],ans:1,ex:"AI has no telepathy. It works only from your words. Vague prompt = vague answer."},
+  {q:"Saying 'Act as a [role]' can change how the AI writes its answer.",opts:["TRUE — roles shift the AI's tone and style","MYTH — AI ignores role instructions"],ans:0,ex:"Telling AI to 'act as a chef' or 'act as a tutor' genuinely changes its vocabulary and depth."},
+  {q:"AI understands your feelings and experiences emotions like humans do.",opts:["TRUE — AI feels and genuinely cares","MYTH — AI predicts text, it doesn't feel"],ans:1,ex:"AI generates responses by predicting the most likely next words. It simulates emotion but doesn't experience it."},
+  {q:"You can improve a bad AI answer by rewriting and improving your prompt.",opts:["TRUE — better input always leads to better output","MYTH — AI is fixed and prompts don't matter"],ans:0,ex:"This is the core idea of prompt engineering. A revised, more detailed prompt can completely transform the answer."}
+];
+var mbIdx=0,mbDone=false;
+function initMB(){
+  var d=mbData[mbIdx];
+  document.getElementById('mb-q').textContent=d.q;
+  document.getElementById('mb-a').textContent=d.opts[0];
+  document.getElementById('mb-b').textContent=d.opts[1];
+  document.getElementById('mb-a').className='myth-opt';
+  document.getElementById('mb-b').className='myth-opt';
+  document.getElementById('mb-fb').className='feedback';
+  document.getElementById('mb-next').style.display='none';
+  document.getElementById('mb-plab').textContent=(mbIdx+1)+' / '+mbData.length;
+  document.getElementById('mb-prog').style.width=((mbIdx/mbData.length)*100)+'%';
+  mbDone=false;
+}
+function answerMB(choice){
+  if(mbDone)return;mbDone=true;
+  var d=mbData[mbIdx];
+  var correct=choice===d.ans;
+  document.getElementById('mb-'+['a','b'][choice]).className='myth-opt '+(correct?'correct':'wrong');
+  document.getElementById('mb-'+['a','b'][d.ans]).className='myth-opt correct';
+  var pts=correct?20:5;scores.mb+=pts;
+  document.getElementById('mb-score').textContent=scores.mb;updateTotalXP();
+  var f=document.getElementById('mb-fb');
+  f.textContent=(correct?'✅ Correct! ':'❌ Actually a myth! ')+d.ex+' (+'+pts+' pts)';
+  f.className=correct?'feedback good':'feedback bad';
+  document.getElementById('mb-next').style.display='inline-block';
+}
+function nextMB(){
+  mbIdx++;
+  if(mbIdx>=mbData.length){document.getElementById('mb-next').style.display='none';document.getElementById('mb-done').style.display='block';badges.mb=true;updateTotalXP();}
+  else initMB();
+}
+initMB();
+
+/* ========== GAME 4 ========== */
+var labData=[
+  {goal:"Goal: Ask AI to write a product description for noise-cancelling headphones, in 3 bullet points, aimed at college students.",
+   opts:[{t:"Act as a marketing writer",g:true},{t:"Write whatever you feel like",g:false},{t:"3 bullet points",g:true},{t:"For college students",g:true},{t:"About noise-cancelling headphones",g:true},{t:"Make it kinda long I guess",g:false}],
+   ex:"Role + Format + Audience + Product = a perfect product prompt!"},
+  {goal:"Goal: Ask AI to explain how gravity works, simply, for a 7-year-old, in exactly 2 sentences.",
+   opts:[{t:"Act as a kids' science teacher",g:true},{t:"Explain gravity",g:true},{t:"In exactly 2 sentences",g:true},{t:"For a 7-year-old",g:true},{t:"Use lots of technical jargon",g:false},{t:"Make it as complicated as possible",g:false}],
+   ex:"Role + Task + Length + Audience — all four ingredients, perfectly placed!"},
+  {goal:"Goal: Ask AI to suggest 5 creative team names for a robotics club that sound fun and techy.",
+   opts:[{t:"Give me exactly 5 ideas",g:true},{t:"Creative team names",g:true},{t:"For a robotics club",g:true},{t:"Or whatever, don't care",g:false},{t:"Techy and fun-sounding",g:true},{t:"Just one name is enough",g:false}],
+   ex:"Number + Type + Context + Tone — that's how you get exactly what you asked for."},
+  {goal:"Goal: Ask AI to check your history essay intro for grammar mistakes only, and explain each fix.",
+   opts:[{t:"Act as an English editor",g:true},{t:"Fix grammar only — not my ideas",g:true},{t:"Explain each correction",g:true},{t:"Rewrite my whole essay from scratch",g:false},{t:"Make it much shorter",g:false},{t:"For my history essay introduction",g:true}],
+   ex:"Role + Scope (grammar only) + Output format — constraining what NOT to change is key!"}
+];
+var plIdx=0,plSel=[];
+function initLab(){
+  var d=labData[plIdx];
+  document.getElementById('pl-goal').textContent=d.goal;
+  document.getElementById('pl-fb').className='feedback';
+  document.getElementById('pl-next').style.display='none';
+  document.getElementById('pl-plab').textContent=(plIdx+1)+' / '+labData.length;
+  document.getElementById('pl-prog').style.width=((plIdx/labData.length)*100)+'%';
+  plSel=[];
+  var c=document.getElementById('pl-chips');c.innerHTML='';
+  d.opts.forEach(function(o,i){
+    var el=document.createElement('span');
+    el.className='chip';el.textContent=o.t;
+    el.onclick=function(){
+      var si=plSel.indexOf(i);
+      if(si>-1){plSel.splice(si,1);el.className='chip';}
+      else{plSel.push(i);el.className='chip selected';}
+    };
+    c.appendChild(el);
+  });
+}
+function checkLab(){
+  var d=labData[plIdx];
+  var chips=document.getElementById('pl-chips').querySelectorAll('.chip');
+  var correct=0,wrong=0,total=d.opts.filter(o=>o.g).length;
+  chips.forEach(function(chip,i){chip.className='chip '+(d.opts[i].g?'correct-hl':'wrong');});
+  plSel.forEach(function(i){if(d.opts[i].g)correct++;else wrong++;});
+  var pts=Math.max(0,Math.round(((correct-wrong)/total)*25));
+  scores.pl+=pts;document.getElementById('pl-score').textContent=scores.pl;updateTotalXP();
+  var f=document.getElementById('pl-fb');
+  f.textContent=d.ex+' (+'+pts+' pts)';
+  f.className=(correct===total&&wrong===0)?'feedback good':'feedback info';
+  document.getElementById('pl-next').style.display='inline-block';
+}
+function nextLab(){
+  plIdx++;
+  if(plIdx>=labData.length){document.getElementById('pl-next').style.display='none';document.getElementById('pl-done').style.display='block';badges.pl=true;updateTotalXP();}
+  else initLab();
+}
+initLab();
+
+/* ========== BADGES ========== */
+var badgeDefs=[
+  {key:'pc',icon:'🎯',name:'Prompt Crafter',desc:'Complete Prompt Craft'},
+  {key:'tc',icon:'🗑️',name:'Trash Detector',desc:'Complete Trash Can'},
+  {key:'mb',icon:'💭',name:'Myth Buster',desc:'Complete Myth Buster'},
+  {key:'pl',icon:'🧪',name:'Lab Rat',desc:'Complete Prompt Lab'},
+];
+function renderBadges(){
+  updateTotalXP();
+  var t=scores.pc+scores.tc+scores.mb+scores.pl;
+  document.getElementById('bxp').textContent=t;
+  var g=document.getElementById('badge-grid');g.innerHTML='';
+  badgeDefs.forEach(function(b){
+    var d=document.createElement('div');
+    d.className='badge-card'+(badges[b.key]?' earned':'');
+    d.innerHTML='<span class="badge-icon">'+(badges[b.key]?b.icon:'🔒')+'</span>'
+      +'<div class="badge-name">'+b.name+'</div>'
+      +'<div class="badge-status">'+(badges[b.key]?'✅ Earned!':b.desc)+'</div>';
+    g.appendChild(d);
+  });
+  var skills=[
+    {label:'Prompting',val:Math.min(100,scores.pc+scores.pl),col:'#F96167'},
+    {label:'Detection',val:Math.min(100,scores.tc*2),col:'#2BA84A'},
+    {label:'AI Knowledge',val:Math.min(100,scores.mb*3),col:'#378ADD'},
+  ];
+  var sb=document.getElementById('skill-bars');sb.innerHTML='';
+  skills.forEach(function(s){
+    var row=document.createElement('div');row.className='skill-row';
+    row.innerHTML='<span class="skill-label">'+s.label+'</span>'
+      +'<div class="skill-track"><div class="skill-fill" style="width:'+s.val+'%;background:'+s.col+'">'+s.val+'%</div></div>';
+    sb.appendChild(row);
+  });
+}
+</script>
+</body>
+</html>
