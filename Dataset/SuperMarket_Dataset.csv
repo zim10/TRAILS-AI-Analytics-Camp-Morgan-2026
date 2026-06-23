@@ -1,0 +1,1001 @@
+﻿City,Customer type,Gender,Product line,Quantity,Sales,Payment,Rating
+Yangon,Member,Female,Health and beauty,7,548.9715,Ewallet,9.1
+Naypyitaw,Normal,Female,Electronic accessories,5,80.22,Cash,9.6
+Yangon,Normal,Female,Home and lifestyle,7,340.5255,Credit card,7.4
+Yangon,Member,Female,Health and beauty,8,489.048,Ewallet,8.4
+Yangon,Member,Female,Sports and travel,7,634.3785,Ewallet,5.3
+Naypyitaw,Member,Female,Electronic accessories,7,627.6165,Ewallet,4.1
+Yangon,Member,Female,Electronic accessories,6,433.692,Ewallet,5.8
+Naypyitaw,Member,Female,Home and lifestyle,10,772.38,Ewallet,8
+Yangon,Member,Female,Health and beauty,2,76.146,Credit card,7.2
+Mandalay,Member,Female,Food and beverages,3,172.746,Credit card,5.9
+Mandalay,Member,Female,Fashion accessories,4,60.816,Ewallet,4.5
+Mandalay,Member,Female,Electronic accessories,4,107.142,Cash,6.8
+Yangon,Member,Female,Electronic accessories,5,246.4875,Ewallet,7.1
+Yangon,Member,Female,Food and beverages,10,453.495,Ewallet,8.2
+Yangon,Member,Female,Health and beauty,10,749.49,Cash,5.7
+Mandalay,Member,Female,Sports and travel,6,590.436,Cash,4.5
+Yangon,Member,Female,Health and beauty,7,506.6355,Credit card,4.6
+Yangon,Member,Female,Sports and travel,6,457.443,Credit card,6.9
+Yangon,Member,Female,Food and beverages,3,172.2105,Credit card,8.6
+Mandalay,Member,Female,Home and lifestyle,2,84.63,Ewallet,4.4
+Naypyitaw,Member,Female,Electronic accessories,5,451.71,Ewallet,4.8
+Mandalay,Member,Female,Health and beauty,3,277.137,Ewallet,5.1
+Mandalay,Member,Female,Home and lifestyle,2,69.72,Credit card,4.4
+Yangon,Member,Female,Electronic accessories,5,181.44,Ewallet,9.9
+Yangon,Member,Female,Sports and travel,3,279.1845,Ewallet,6
+Yangon,Member,Female,Home and lifestyle,8,441.756,Credit card,8.5
+Mandalay,Member,Female,Fashion accessories,1,35.196,Cash,6.7
+Yangon,Member,Female,Fashion accessories,2,184.107,Credit card,7.7
+Mandalay,Member,Female,Food and beverages,5,463.89,Cash,9.6
+Yangon,Member,Female,Health and beauty,9,235.2105,Cash,7.4
+Mandalay,Member,Female,Fashion accessories,5,494.1825,Credit card,4.8
+Mandalay,Member,Female,Sports and travel,9,737.7615,Cash,4.5
+Mandalay,Member,Female,Sports and travel,8,703.752,Cash,5.1
+Yangon,Member,Female,Health and beauty,2,202.818,Credit card,5.1
+Naypyitaw,Member,Female,Food and beverages,4,417.564,Ewallet,7.5
+Naypyitaw,Member,Female,Sports and travel,1,71.526,Ewallet,6.8
+Yangon,Member,Female,Sports and travel,5,328.755,Ewallet,7
+Yangon,Member,Female,Electronic accessories,9,575.316,Ewallet,4.7
+Naypyitaw,Member,Female,Health and beauty,8,461.328,Ewallet,7.6
+Mandalay,Member,Female,Home and lifestyle,8,253.008,Cash,7.7
+Mandalay,Member,Female,Home and lifestyle,1,91.056,Ewallet,7.9
+Naypyitaw,Member,Female,Home and lifestyle,2,117.831,Cash,6.3
+Mandalay,Member,Female,Sports and travel,6,435.456,Cash,5.6
+Naypyitaw,Member,Female,Food and beverages,8,829.08,Cash,7.6
+Naypyitaw,Member,Female,Health and beauty,2,32.277,Cash,7.2
+Mandalay,Member,Female,Electronic accessories,4,394.632,Cash,9.5
+Mandalay,Member,Female,Health and beauty,9,535.7205,Credit card,8.4
+Mandalay,Member,Female,Food and beverages,9,189.0945,Ewallet,4.1
+Mandalay,Member,Female,Electronic accessories,6,119.259,Credit card,8.1
+Naypyitaw,Member,Female,Fashion accessories,10,867.615,Ewallet,7.9
+Naypyitaw,Member,Female,Food and beverages,7,671.79,Cash,9.5
+Yangon,Member,Female,Food and beverages,5,234.0975,Cash,8.5
+Mandalay,Member,Female,Fashion accessories,4,75.054,Ewallet,6.5
+Naypyitaw,Member,Female,Fashion accessories,1,16.2015,Credit card,6.1
+Mandalay,Member,Female,Home and lifestyle,2,33.936,Ewallet,6.5
+Naypyitaw,Member,Female,Electronic accessories,8,722.232,Cash,8.2
+Yangon,Member,Female,Home and lifestyle,2,93.114,Cash,5.8
+Yangon,Member,Female,Health and beauty,8,752.64,Ewallet,6.6
+Yangon,Member,Female,Home and lifestyle,10,759.675,Cash,5.4
+Naypyitaw,Member,Female,Electronic accessories,6,192.843,Cash,9.3
+Naypyitaw,Member,Female,Sports and travel,3,77.931,Credit card,10
+Naypyitaw,Member,Female,Home and lifestyle,6,351.099,Ewallet,7
+Mandalay,Member,Female,Sports and travel,9,520.4115,Ewallet,10
+Yangon,Member,Female,Sports and travel,10,166.005,Credit card,8.6
+Mandalay,Member,Female,Health and beauty,4,318.108,Cash,7.6
+Yangon,Member,Female,Health and beauty,10,166.635,Cash,5.8
+Naypyitaw,Member,Female,Health and beauty,2,70.287,Ewallet,6.7
+Mandalay,Member,Female,Fashion accessories,6,614.943,Ewallet,9.9
+Yangon,Member,Female,Sports and travel,10,827.085,Cash,6.4
+Yangon,Member,Female,Health and beauty,1,19.2465,Cash,4.3
+Naypyitaw,Member,Female,Food and beverages,10,939.54,Credit card,9.6
+Naypyitaw,Member,Female,Fashion accessories,10,652.26,Cash,5.9
+Mandalay,Member,Female,Food and beverages,3,152.838,Ewallet,4
+Naypyitaw,Member,Female,Electronic accessories,6,478.233,Cash,8.7
+Yangon,Member,Female,Home and lifestyle,9,705.6315,Ewallet,9.4
+Naypyitaw,Member,Female,Electronic accessories,10,437.325,Credit card,5.4
+Naypyitaw,Member,Female,Fashion accessories,9,463.428,Credit card,8.6
+Yangon,Member,Female,Fashion accessories,9,189.0945,Credit card,5.7
+Naypyitaw,Member,Female,Food and beverages,10,822.255,Ewallet,6.6
+Naypyitaw,Member,Female,Health and beauty,5,106.995,Cash,6
+Naypyitaw,Member,Female,Health and beauty,6,624.897,Credit card,5.5
+Mandalay,Member,Female,Food and beverages,3,304.542,Ewallet,6.4
+Naypyitaw,Member,Female,Food and beverages,8,161.7,Ewallet,6.6
+Naypyitaw,Member,Female,Food and beverages,4,337.512,Credit card,8.3
+Naypyitaw,Member,Female,Sports and travel,5,256.7775,Cash,6.6
+Naypyitaw,Member,Female,Sports and travel,7,610.491,Ewallet,4
+Naypyitaw,Member,Female,Fashion accessories,5,401.73,Cash,9.9
+Yangon,Member,Female,Food and beverages,7,362.943,Credit card,7.3
+Yangon,Member,Female,Sports and travel,1,44.5935,Cash,5.7
+Mandalay,Member,Female,Health and beauty,6,485.037,Cash,6.1
+Naypyitaw,Member,Female,Home and lifestyle,4,198.996,Cash,7.1
+Naypyitaw,Member,Female,Sports and travel,10,471.03,Ewallet,8.2
+Yangon,Member,Female,Sports and travel,7,161.553,Ewallet,5.1
+Mandalay,Member,Female,Health and beauty,9,608.202,Credit card,8.6
+Naypyitaw,Member,Female,Health and beauty,1,94.2375,Credit card,6.6
+Yangon,Member,Female,Electronic accessories,1,102.018,Ewallet,7.2
+Mandalay,Member,Female,Health and beauty,10,922.635,Ewallet,5.1
+Naypyitaw,Member,Female,Electronic accessories,6,78.435,Cash,4.1
+Yangon,Member,Female,Food and beverages,3,166.1625,Ewallet,9.3
+Mandalay,Member,Female,Home and lifestyle,6,521.01,Cash,7.4
+Naypyitaw,Member,Female,Fashion accessories,1,51.1455,Cash,4.1
+Naypyitaw,Member,Female,Fashion accessories,9,742.2975,Cash,7.2
+Naypyitaw,Member,Female,Electronic accessories,9,218.0115,Cash,4.9
+Yangon,Member,Female,Food and beverages,6,367.038,Cash,9.9
+Mandalay,Member,Female,Health and beauty,7,223.0725,Cash,8
+Yangon,Member,Female,Electronic accessories,10,931.035,Ewallet,7.3
+Naypyitaw,Member,Female,Fashion accessories,6,172.494,Credit card,7.9
+Yangon,Member,Female,Sports and travel,6,391.419,Cash,7.4
+Naypyitaw,Member,Female,Food and beverages,9,321.111,Cash,4.2
+Naypyitaw,Member,Female,Electronic accessories,10,860.685,Cash,9.2
+Mandalay,Member,Female,Sports and travel,2,34.629,Ewallet,4.6
+Naypyitaw,Member,Female,Health and beauty,3,309.3615,Credit card,7.8
+Mandalay,Member,Female,Fashion accessories,7,535.374,Cash,8.4
+Yangon,Member,Female,Home and lifestyle,9,548.7615,Ewallet,4.3
+Naypyitaw,Member,Female,Home and lifestyle,9,763.4655,Credit card,9.5
+Naypyitaw,Member,Female,Fashion accessories,3,85.113,Credit card,7.1
+Mandalay,Member,Female,Fashion accessories,5,115.185,Ewallet,5.3
+Mandalay,Member,Female,Fashion accessories,1,53.928,Ewallet,5.2
+Yangon,Member,Female,Food and beverages,10,115.08,Ewallet,6
+Mandalay,Member,Female,Home and lifestyle,2,112.224,Ewallet,4.1
+Yangon,Member,Female,Electronic accessories,8,836.304,Credit card,5.2
+Naypyitaw,Member,Female,Sports and travel,7,419.832,Credit card,6.5
+Mandalay,Member,Female,Sports and travel,9,944.622,Credit card,4.2
+Naypyitaw,Member,Female,Home and lifestyle,8,536.844,Credit card,4.6
+Mandalay,Member,Female,Fashion accessories,8,474.348,Ewallet,7.3
+Yangon,Member,Female,Home and lifestyle,7,688.6215,Credit card,4.5
+Yangon,Member,Female,Sports and travel,5,169.3125,Cash,9
+Naypyitaw,Member,Female,Fashion accessories,9,299.8485,Credit card,5.9
+Naypyitaw,Member,Female,Food and beverages,8,575.736,Ewallet,8.5
+Mandalay,Member,Female,Sports and travel,9,853.146,Ewallet,7.2
+Mandalay,Normal,Female,Fashion accessories,7,291.207,Cash,7.5
+Yangon,Member,Female,Sports and travel,6,580.419,Cash,8.3
+Mandalay,Normal,Female,Sports and travel,4,146.328,Cash,7.4
+Mandalay,Member,Female,Electronic accessories,6,550.935,Credit card,8.8
+Naypyitaw,Normal,Female,Health and beauty,6,512.19,Ewallet,5.3
+Naypyitaw,Normal,Female,Fashion accessories,3,284.193,Cash,6.2
+Yangon,Normal,Female,Electronic accessories,5,138.1275,Credit card,8.8
+Yangon,Member,Female,Home and lifestyle,6,216.846,Cash,9.8
+Mandalay,Normal,Female,Sports and travel,10,545.055,Cash,8.2
+Yangon,Normal,Female,Sports and travel,8,609,Ewallet,9.2
+Naypyitaw,Member,Female,Sports and travel,10,942.9,Credit card,5.4
+Naypyitaw,Member,Male,Health and beauty,10,950.25,Cash,8.1
+Naypyitaw,Member,Female,Health and beauty,10,720.3,Cash,9.1
+Naypyitaw,Member,Female,Food and beverages,1,31.9305,Credit card,8.4
+Yangon,Normal,Female,Home and lifestyle,6,491.085,Ewallet,8
+Naypyitaw,Normal,Female,Health and beauty,6,291.438,Credit card,9.5
+Yangon,Member,Female,Fashion accessories,10,316.47,Ewallet,9.2
+Naypyitaw,Normal,Male,Health and beauty,4,277.788,Credit card,5.6
+Mandalay,Member,Male,Home and lifestyle,8,603.624,Credit card,6.2
+Yangon,Normal,Male,Health and beauty,8,272.664,Credit card,4.9
+Mandalay,Member,Female,Fashion accessories,4,384.468,Credit card,4.8
+Naypyitaw,Member,Male,Sports and travel,7,254.016,Credit card,7.3
+Yangon,Normal,Male,Fashion accessories,9,786.618,Credit card,7.4
+Naypyitaw,Normal,Female,Food and beverages,6,103.824,Ewallet,9.9
+Naypyitaw,Normal,Female,Sports and travel,8,680.148,Cash,9.3
+Yangon,Member,Male,Food and beverages,5,484.5225,Credit card,9
+Mandalay,Member,Male,Electronic accessories,1,75.7785,Cash,6.1
+Mandalay,Normal,Male,Home and lifestyle,5,263.97,Ewallet,9.7
+Mandalay,Member,Male,Health and beauty,9,918.729,Ewallet,6
+Mandalay,Normal,Male,Sports and travel,6,588.357,Ewallet,10
+Naypyitaw,Normal,Female,Food and beverages,8,362.712,Credit card,8.3
+Yangon,Normal,Male,Sports and travel,1,66.8745,Cash,6
+Yangon,Normal,Male,Food and beverages,7,336.5565,Credit card,7
+Naypyitaw,Normal,Male,Sports and travel,2,160.44,Ewallet,6.5
+Mandalay,Normal,Male,Food and beverages,10,418.95,Credit card,5.9
+Mandalay,Member,Male,Health and beauty,8,357.588,Ewallet,5.6
+Naypyitaw,Normal,Male,Home and lifestyle,10,1003.59,Cash,4.8
+Yangon,Normal,Male,Fashion accessories,10,1039.29,Credit card,8.7
+Yangon,Normal,Male,Food and beverages,6,323.064,Cash,6.5
+Yangon,Member,Male,Sports and travel,7,510.972,Credit card,8.5
+Yangon,Normal,Male,Health and beauty,5,367.5525,Ewallet,5.5
+Mandalay,Member,Male,Food and beverages,5,420.2625,Credit card,9.4
+Naypyitaw,Normal,Male,Electronic accessories,8,175.14,Cash,6.3
+Mandalay,Member,Male,Electronic accessories,6,333.207,Credit card,9.8
+Mandalay,Normal,Male,Food and beverages,8,166.236,Ewallet,8.7
+Yangon,Member,Male,Home and lifestyle,9,319.788,Ewallet,8.8
+Yangon,Member,Male,Food and beverages,8,186.228,Credit card,9.6
+Naypyitaw,Normal,Female,Fashion accessories,7,165.4485,Credit card,4.8
+Yangon,Normal,Male,Food and beverages,6,465.444,Ewallet,4.4
+Naypyitaw,Member,Male,Health and beauty,3,273.42,Ewallet,9.9
+Naypyitaw,Normal,Male,Fashion accessories,7,472.311,Cash,5.7
+Naypyitaw,Member,Male,Food and beverages,8,323.148,Cash,7.7
+Yangon,Member,Male,Sports and travel,10,162.75,Ewallet,8
+Naypyitaw,Normal,Male,Health and beauty,8,288.204,Ewallet,5.7
+Yangon,Normal,Female,Sports and travel,7,90.699,Credit card,6.7
+Mandalay,Member,Male,Food and beverages,3,56.952,Ewallet,8
+Mandalay,Member,Female,Home and lifestyle,8,793.716,Ewallet,7.5
+Mandalay,Member,Male,Home and lifestyle,4,195.174,Cash,7
+Yangon,Normal,Male,Home and lifestyle,1,77.7735,Ewallet,9.9
+Naypyitaw,Normal,Female,Home and lifestyle,4,293.202,Credit card,5.9
+Mandalay,Normal,Female,Home and lifestyle,3,242.676,Credit card,7.2
+Mandalay,Normal,Female,Fashion accessories,2,154.392,Ewallet,4.6
+Naypyitaw,Normal,Female,Food and beverages,9,829.71,Cash,9.2
+Mandalay,Normal,Male,Home and lifestyle,4,107.31,Ewallet,5.7
+Yangon,Normal,Male,Electronic accessories,5,171.7275,Credit card,9.9
+Naypyitaw,Member,Female,Fashion accessories,1,78.0045,Cash,5
+Naypyitaw,Member,Male,Health and beauty,2,91.77,Cash,4.9
+Yangon,Normal,Female,Home and lifestyle,1,26.5545,Ewallet,6.1
+Naypyitaw,Normal,Male,Health and beauty,4,174.3,Credit card,8.2
+Naypyitaw,Member,Female,Food and beverages,5,374.7975,Credit card,5.5
+Naypyitaw,Member,Female,Sports and travel,6,120.645,Credit card,6.8
+Mandalay,Member,Female,Electronic accessories,4,241.458,Cash,6.6
+Naypyitaw,Normal,Male,Electronic accessories,7,451.3635,Cash,9.8
+Mandalay,Member,Male,Health and beauty,10,271.95,Ewallet,8.7
+Mandalay,Member,Male,Home and lifestyle,5,93.2925,Credit card,5.4
+Yangon,Normal,Female,Health and beauty,9,217.6335,Ewallet,7.9
+Naypyitaw,Member,Female,Electronic accessories,9,629.8425,Credit card,9.7
+Naypyitaw,Member,Female,Home and lifestyle,10,299.565,Ewallet,7.8
+Mandalay,Normal,Female,Fashion accessories,3,95.6655,Ewallet,5.1
+Mandalay,Normal,Female,Electronic accessories,9,942.4485,Credit card,6.5
+Yangon,Normal,Male,Electronic accessories,9,247.8735,Ewallet,5.9
+Naypyitaw,Normal,Female,Food and beverages,9,881.307,Cash,8.8
+Mandalay,Normal,Male,Home and lifestyle,5,484.89,Ewallet,4.9
+Mandalay,Normal,Male,Sports and travel,3,146.223,Credit card,4.4
+Mandalay,Member,Female,Sports and travel,7,217.6335,Cash,6.5
+Yangon,Normal,Male,Home and lifestyle,1,19.194,Credit card,8.3
+Mandalay,Normal,Female,Sports and travel,5,130.0425,Cash,8.5
+Yangon,Member,Female,Electronic accessories,3,298.116,Cash,5.5
+Mandalay,Normal,Male,Fashion accessories,8,796.908,Ewallet,8.7
+Mandalay,Normal,Female,Food and beverages,3,180.621,Credit card,7.9
+Mandalay,Normal,Male,Electronic accessories,6,285.705,Ewallet,6.1
+Mandalay,Normal,Male,Food and beverages,7,456.288,Ewallet,5.4
+Naypyitaw,Normal,Male,Electronic accessories,5,62.0025,Cash,9.4
+Naypyitaw,Member,Female,Fashion accessories,1,13.167,Cash,8.2
+Yangon,Normal,Male,Food and beverages,2,90.825,Cash,6.2
+Naypyitaw,Member,Female,Sports and travel,2,183.036,Credit card,9.7
+Mandalay,Member,Male,Health and beauty,9,655.5465,Ewallet,4
+Naypyitaw,Member,Male,Electronic accessories,4,155.652,Ewallet,9.7
+Mandalay,Member,Female,Electronic accessories,6,571.41,Cash,5.3
+Yangon,Normal,Female,Home and lifestyle,8,532.728,Ewallet,7.4
+Mandalay,Normal,Female,Fashion accessories,2,170.877,Cash,6.5
+Mandalay,Member,Female,Electronic accessories,3,33.3585,Credit card,8.7
+Mandalay,Normal,Female,Health and beauty,9,794.6505,Cash,8
+Mandalay,Member,Male,Fashion accessories,4,310.044,Cash,6.7
+Yangon,Member,Male,Health and beauty,10,545.37,Ewallet,6.5
+Yangon,Normal,Female,Sports and travel,2,195.594,Ewallet,4.1
+Naypyitaw,Normal,Male,Health and beauty,5,91.4025,Credit card,4.9
+Naypyitaw,Member,Female,Fashion accessories,5,232.155,Credit card,8.6
+Mandalay,Member,Female,Electronic accessories,5,69.405,Cash,4.3
+Yangon,Normal,Male,Fashion accessories,1,94.1745,Ewallet,4.9
+Yangon,Normal,Male,Food and beverages,9,235.683,Credit card,5.6
+Yangon,Normal,Male,Health and beauty,2,125.517,Credit card,5.8
+Naypyitaw,Member,Male,Fashion accessories,2,195.72,Credit card,6
+Yangon,Member,Male,Home and lifestyle,4,263.13,Cash,4.2
+Mandalay,Normal,Male,Home and lifestyle,8,788.508,Credit card,8.3
+Yangon,Member,Male,Home and lifestyle,8,399.756,Cash,5.7
+Mandalay,Member,Female,Electronic accessories,3,256.41,Cash,4.8
+Yangon,Member,Male,Fashion accessories,5,94.185,Ewallet,6.8
+Yangon,Member,Male,Electronic accessories,4,326.424,Credit card,8.8
+Mandalay,Normal,Male,Food and beverages,7,536.991,Credit card,4.2
+Mandalay,Member,Male,Food and beverages,9,439.8975,Ewallet,6.4
+Naypyitaw,Member,Male,Fashion accessories,10,369.495,Credit card,8.4
+Naypyitaw,Normal,Female,Sports and travel,2,30.219,Credit card,7.2
+Yangon,Normal,Male,Home and lifestyle,4,99.75,Cash,5.2
+Yangon,Member,Male,Home and lifestyle,8,494.76,Cash,8.9
+Mandalay,Member,Male,Fashion accessories,4,137.004,Cash,9
+Yangon,Member,Male,Electronic accessories,1,69.6675,Credit card,9.7
+Yangon,Member,Male,Home and lifestyle,6,163.233,Ewallet,8.7
+Yangon,Member,Male,Electronic accessories,4,135.45,Ewallet,6.5
+Naypyitaw,Member,Male,Electronic accessories,4,276.948,Credit card,6.9
+Yangon,Normal,Female,Electronic accessories,9,709.317,Ewallet,6.2
+Naypyitaw,Normal,Female,Fashion accessories,4,69.09,Ewallet,5.6
+Mandalay,Member,Female,Fashion accessories,4,160.86,Cash,5.7
+Yangon,Member,Female,Sports and travel,10,233.52,Cash,4.2
+Mandalay,Normal,Male,Sports and travel,1,57.1725,Ewallet,7.9
+Yangon,Member,Female,Sports and travel,7,723.24,Credit card,8.7
+Naypyitaw,Normal,Male,Home and lifestyle,4,148.974,Credit card,6.9
+Mandalay,Member,Female,Food and beverages,10,783.3,Cash,9.5
+Yangon,Member,Male,Home and lifestyle,4,297.108,Credit card,4.4
+Yangon,Member,Female,Home and lifestyle,10,373.17,Ewallet,7
+Mandalay,Normal,Female,Sports and travel,5,354.0075,Ewallet,6.3
+Naypyitaw,Member,Female,Health and beauty,2,44.352,Cash,9.7
+Yangon,Member,Female,Home and lifestyle,9,203.553,Credit card,8.8
+Yangon,Normal,Female,Home and lifestyle,2,25.263,Cash,5.1
+Mandalay,Normal,Female,Health and beauty,6,628.173,Ewallet,7.9
+Mandalay,Normal,Male,Fashion accessories,7,352.5795,Cash,6.2
+Naypyitaw,Member,Female,Home and lifestyle,10,229.11,Cash,7.1
+Naypyitaw,Normal,Female,Fashion accessories,4,400.764,Ewallet,6.4
+Naypyitaw,Member,Male,Fashion accessories,10,745.395,Cash,5.7
+Yangon,Member,Male,Sports and travel,10,462.21,Credit card,9.6
+Yangon,Normal,Female,Home and lifestyle,8,587.664,Credit card,6.4
+Naypyitaw,Normal,Male,Home and lifestyle,1,38.85,Credit card,7.9
+Yangon,Normal,Female,Sports and travel,1,16.107,Cash,6.5
+Yangon,Member,Male,Health and beauty,6,628.929,Ewallet,8.5
+Yangon,Member,Female,Health and beauty,4,200.214,Cash,9.1
+Mandalay,Normal,Male,Health and beauty,5,350.07,Cash,7.6
+Naypyitaw,Member,Male,Home and lifestyle,1,78.603,Cash,6.9
+Naypyitaw,Normal,Female,Sports and travel,9,224.4375,Cash,9.5
+Mandalay,Normal,Female,Food and beverages,7,356.5485,Credit card,5.2
+Yangon,Member,Female,Home and lifestyle,7,697.368,Cash,4.2
+Mandalay,Member,Male,Electronic accessories,10,423.15,Credit card,7
+Naypyitaw,Normal,Male,Electronic accessories,7,204.6975,Ewallet,6
+Yangon,Member,Female,Electronic accessories,1,65.604,Cash,4.7
+Yangon,Member,Female,Food and beverages,2,76.356,Cash,7.1
+Mandalay,Normal,Male,Health and beauty,10,190.155,Ewallet,5.9
+Naypyitaw,Member,Female,Electronic accessories,5,272.58,Cash,7.5
+Naypyitaw,Normal,Male,Electronic accessories,4,121.128,Cash,6.4
+Yangon,Member,Male,Home and lifestyle,6,493.794,Ewallet,5.8
+Yangon,Member,Male,Home and lifestyle,4,252.042,Cash,4.5
+Naypyitaw,Member,Female,Home and lifestyle,1,93.0405,Cash,7.7
+Naypyitaw,Normal,Male,Fashion accessories,2,209.622,Credit card,6.7
+Mandalay,Member,Male,Health and beauty,1,40.9605,Credit card,4.7
+Naypyitaw,Normal,Male,Food and beverages,1,51.0405,Cash,4.4
+Yangon,Normal,Female,Electronic accessories,4,214.998,Credit card,4.7
+Mandalay,Normal,Female,Electronic accessories,8,125.664,Cash,8.6
+Yangon,Member,Male,Electronic accessories,7,530.67,Ewallet,4.3
+Yangon,Normal,Female,Sports and travel,7,295.6905,Cash,9.6
+Yangon,Member,Female,Home and lifestyle,8,745.836,Cash,4.1
+Yangon,Member,Female,Electronic accessories,3,83.412,Ewallet,4.7
+Yangon,Normal,Female,Fashion accessories,2,172.011,Cash,7.8
+Mandalay,Member,Male,Sports and travel,6,503.559,Cash,5.5
+Naypyitaw,Member,Male,Fashion accessories,2,145.593,Ewallet,9.7
+Yangon,Member,Female,Food and beverages,5,74.7075,Credit card,4.4
+Yangon,Member,Female,Health and beauty,9,146.9475,Cash,5
+Naypyitaw,Member,Female,Electronic accessories,10,820.365,Cash,4.4
+Naypyitaw,Member,Male,Food and beverages,2,208.677,Cash,5.2
+Naypyitaw,Member,Female,Food and beverages,3,66.402,Cash,7.3
+Naypyitaw,Member,Male,Electronic accessories,5,392.6475,Cash,4.9
+Naypyitaw,Member,Female,Health and beauty,7,218.0745,Credit card,8.1
+Naypyitaw,Member,Male,Health and beauty,4,185.094,Ewallet,8.4
+Naypyitaw,Normal,Female,Food and beverages,9,216.6885,Cash,5.5
+Naypyitaw,Normal,Female,Health and beauty,1,41.391,Cash,8.4
+Yangon,Normal,Male,Health and beauty,6,96.138,Ewallet,9.8
+Yangon,Normal,Female,Fashion accessories,5,324.2925,Cash,6.7
+Yangon,Normal,Male,Home and lifestyle,6,135.576,Credit card,9.4
+Mandalay,Normal,Male,Sports and travel,4,410.508,Ewallet,6.4
+Yangon,Member,Male,Food and beverages,5,523.845,Cash,5.4
+Naypyitaw,Member,Male,Food and beverages,4,395.892,Cash,8.6
+Mandalay,Member,Male,Health and beauty,4,214.746,Credit card,4
+Yangon,Member,Male,Electronic accessories,4,152.712,Cash,7.6
+Mandalay,Normal,Male,Home and lifestyle,9,208.089,Cash,6.8
+Yangon,Normal,Male,Food and beverages,3,103.635,Credit card,9.1
+Yangon,Normal,Male,Fashion accessories,5,404.355,Cash,5.5
+Yangon,Member,Male,Food and beverages,2,49.308,Credit card,7.9
+Naypyitaw,Member,Male,Sports and travel,5,77.175,Ewallet,8.5
+Yangon,Member,Female,Electronic accessories,5,149.3625,Credit card,9.1
+Yangon,Normal,Male,Fashion accessories,9,721.98,Ewallet,7.5
+Mandalay,Normal,Female,Sports and travel,6,365.085,Cash,5.2
+Naypyitaw,Normal,Female,Electronic accessories,3,150.0975,Credit card,9.5
+Mandalay,Member,Female,Food and beverages,9,404.649,Credit card,8.9
+Mandalay,Member,Male,Electronic accessories,3,151.4835,Credit card,7.8
+Mandalay,Member,Female,Health and beauty,7,411.3795,Ewallet,8.9
+Mandalay,Member,Female,Health and beauty,7,565.215,Cash,7.7
+Naypyitaw,Normal,Female,Food and beverages,5,509.4075,Ewallet,9.3
+Yangon,Normal,Male,Sports and travel,3,140.6475,Cash,6.2
+Yangon,Normal,Female,Fashion accessories,9,736.4385,Ewallet,7.6
+Yangon,Member,Male,Electronic accessories,1,75.5475,Cash,7.3
+Naypyitaw,Member,Female,Home and lifestyle,8,749.7,Cash,4.7
+Yangon,Normal,Male,Electronic accessories,7,191.247,Cash,5.1
+Mandalay,Normal,Female,Health and beauty,10,141.75,Credit card,4.8
+Naypyitaw,Member,Female,Fashion accessories,10,1042.65,Credit card,6.6
+Yangon,Normal,Male,Electronic accessories,7,379.9215,Cash,5.5
+Mandalay,Member,Female,Fashion accessories,7,402.2655,Credit card,8.5
+Mandalay,Member,Male,Home and lifestyle,9,255.15,Cash,4.8
+Naypyitaw,Normal,Female,Electronic accessories,1,31.752,Cash,8.4
+Mandalay,Member,Female,Food and beverages,4,374.388,Credit card,7.8
+Naypyitaw,Normal,Female,Fashion accessories,10,394.275,Credit card,9.3
+Naypyitaw,Normal,Female,Sports and travel,10,1002.12,Cash,5.2
+Mandalay,Normal,Male,Electronic accessories,3,86.625,Ewallet,6.5
+Mandalay,Normal,Male,Sports and travel,1,78.7185,Cash,5.6
+Yangon,Member,Male,Food and beverages,8,680.064,Credit card,7.4
+Naypyitaw,Normal,Female,Food and beverages,8,793.548,Cash,9.1
+Naypyitaw,Normal,Male,Food and beverages,2,209.559,Ewallet,8
+Yangon,Normal,Male,Home and lifestyle,6,461.286,Cash,7.2
+Naypyitaw,Normal,Female,Food and beverages,4,173.208,Cash,7.1
+Naypyitaw,Normal,Female,Fashion accessories,4,343.056,Cash,9.1
+Naypyitaw,Normal,Female,Electronic accessories,9,484.974,Cash,5.6
+Yangon,Member,Male,Home and lifestyle,4,276.948,Cash,6
+Naypyitaw,Normal,Female,Sports and travel,10,150.78,Cash,5.4
+Yangon,Member,Male,Electronic accessories,9,203.175,Credit card,7.8
+Mandalay,Member,Female,Electronic accessories,7,193.011,Cash,9.9
+Mandalay,Normal,Female,Fashion accessories,2,128.016,Credit card,4.9
+Naypyitaw,Normal,Female,Home and lifestyle,6,441.693,Ewallet,5.2
+Naypyitaw,Normal,Male,Fashion accessories,6,265.104,Cash,8.9
+Yangon,Normal,Female,Home and lifestyle,5,352.2225,Credit card,9.1
+Yangon,Member,Female,Fashion accessories,5,507.675,Ewallet,7
+Mandalay,Member,Female,Home and lifestyle,9,334.341,Credit card,9.6
+Naypyitaw,Normal,Male,Sports and travel,7,701.8515,Ewallet,8.7
+Naypyitaw,Member,Male,Fashion accessories,4,407.316,Ewallet,9.4
+Mandalay,Normal,Female,Electronic accessories,4,99.33,Credit card,4
+Yangon,Member,Male,Sports and travel,4,345.786,Credit card,7.5
+Naypyitaw,Normal,Female,Electronic accessories,2,55.881,Cash,4.2
+Mandalay,Normal,Female,Food and beverages,5,523.3725,Cash,9.9
+Naypyitaw,Member,Female,Food and beverages,4,314.538,Ewallet,4.2
+Yangon,Normal,Female,Food and beverages,5,214.935,Ewallet,9.9
+Mandalay,Member,Male,Sports and travel,1,79.611,Cash,5.8
+Naypyitaw,Normal,Male,Food and beverages,6,294.651,Cash,6
+Yangon,Normal,Female,Health and beauty,10,339.36,Credit card,10
+Naypyitaw,Member,Female,Fashion accessories,9,510.9615,Ewallet,9.5
+Mandalay,Normal,Male,Food and beverages,7,133.917,Credit card,6.6
+Naypyitaw,Member,Female,Fashion accessories,3,253.512,Cash,8.1
+Mandalay,Normal,Female,Fashion accessories,10,398.475,Cash,9.7
+Yangon,Member,Male,Electronic accessories,1,80.661,Ewallet,7.2
+Yangon,Member,Female,Sports and travel,10,548.73,Credit card,6.2
+Yangon,Normal,Female,Health and beauty,1,83.727,Ewallet,7.3
+Yangon,Normal,Female,Health and beauty,5,406.875,Ewallet,4.3
+Yangon,Normal,Female,Food and beverages,5,284.9175,Ewallet,4.6
+Mandalay,Normal,Male,Home and lifestyle,9,128.4255,Cash,5.8
+Mandalay,Member,Female,Health and beauty,6,258.678,Credit card,8.3
+Mandalay,Member,Male,Electronic accessories,9,181.818,Cash,8
+Naypyitaw,Normal,Female,Food and beverages,6,248.409,Credit card,9.4
+Naypyitaw,Normal,Male,Home and lifestyle,4,194.124,Credit card,6.2
+Naypyitaw,Member,Male,Home and lifestyle,1,14.679,Ewallet,9.8
+Mandalay,Normal,Female,Fashion accessories,5,208.6875,Ewallet,9.6
+Naypyitaw,Member,Female,Fashion accessories,7,718.7565,Ewallet,4.9
+Yangon,Member,Male,Sports and travel,4,282.492,Credit card,8
+Yangon,Normal,Male,Food and beverages,5,72.3975,Credit card,7.8
+Mandalay,Member,Female,Fashion accessories,4,288.582,Cash,4.1
+Yangon,Normal,Female,Home and lifestyle,4,237.426,Ewallet,5.5
+Naypyitaw,Normal,Female,Fashion accessories,5,125.055,Ewallet,5.4
+Mandalay,Normal,Female,Health and beauty,10,359.205,Cash,5.1
+Mandalay,Normal,Male,Sports and travel,2,45.927,Ewallet,6.9
+Yangon,Member,Male,Health and beauty,5,110.0925,Cash,7.8
+Yangon,Normal,Male,Sports and travel,3,81.396,Ewallet,6.6
+Yangon,Normal,Male,Home and lifestyle,8,427.812,Ewallet,9.2
+Mandalay,Normal,Male,Health and beauty,1,100.9155,Ewallet,7.8
+Naypyitaw,Normal,Female,Home and lifestyle,4,190.596,Credit card,8.7
+Naypyitaw,Member,Female,Health and beauty,1,85.5855,Ewallet,9.2
+Mandalay,Normal,Female,Health and beauty,2,120.162,Ewallet,8.3
+Yangon,Member,Female,Electronic accessories,7,185.367,Cash,8.2
+Naypyitaw,Member,Female,Food and beverages,3,121.59,Ewallet,7.5
+Naypyitaw,Normal,Female,Electronic accessories,3,264.7575,Cash,9.8
+Naypyitaw,Member,Female,Fashion accessories,10,1020.705,Credit card,8.7
+Mandalay,Member,Male,Fashion accessories,8,213.528,Credit card,6.7
+Naypyitaw,Normal,Male,Fashion accessories,1,17.094,Cash,5
+Mandalay,Member,Male,Fashion accessories,9,383.7645,Cash,7
+Yangon,Member,Male,Health and beauty,7,390.7995,Cash,8.9
+Mandalay,Member,Female,Food and beverages,3,65.7405,Credit card,8
+Mandalay,Normal,Male,Sports and travel,5,353.1675,Cash,6.9
+Yangon,Member,Female,Home and lifestyle,10,951.825,Ewallet,7.3
+Mandalay,Normal,Male,Fashion accessories,2,145.068,Credit card,6.9
+Naypyitaw,Normal,Male,Food and beverages,2,90.867,Ewallet,5.7
+Yangon,Normal,Female,Electronic accessories,6,147.798,Ewallet,6.4
+Mandalay,Normal,Male,Fashion accessories,7,702.219,Credit card,9.6
+Mandalay,Normal,Female,Fashion accessories,1,49.812,Credit card,6.8
+Naypyitaw,Normal,Male,Sports and travel,9,937.818,Ewallet,9
+Naypyitaw,Member,Male,Sports and travel,4,348.306,Ewallet,9.6
+Yangon,Normal,Male,Home and lifestyle,6,214.137,Credit card,7.7
+Naypyitaw,Member,Male,Food and beverages,4,71.568,Ewallet,7
+Naypyitaw,Normal,Female,Electronic accessories,8,343.224,Credit card,6.5
+Naypyitaw,Member,Male,Food and beverages,5,91.56,Cash,8.1
+Mandalay,Member,Female,Sports and travel,8,742.812,Credit card,4.3
+Yangon,Member,Female,Home and lifestyle,9,843.0345,Credit card,6.5
+Naypyitaw,Normal,Male,Fashion accessories,1,13.419,Ewallet,9.5
+Yangon,Normal,Female,Sports and travel,7,140.385,Cash,9.7
+Mandalay,Member,Female,Health and beauty,1,20.1075,Credit card,9.5
+Naypyitaw,Member,Male,Food and beverages,10,290.43,Credit card,8.9
+Naypyitaw,Normal,Male,Fashion accessories,3,144.081,Credit card,6.5
+Mandalay,Member,Female,Health and beauty,1,28.4235,Credit card,5.3
+Mandalay,Member,Female,Sports and travel,1,41.076,Credit card,9.6
+Mandalay,Normal,Female,Electronic accessories,6,470.673,Cash,6.7
+Mandalay,Normal,Male,Electronic accessories,6,138.663,Cash,7.6
+Yangon,Normal,Female,Food and beverages,5,333.9525,Ewallet,4.8
+Yangon,Normal,Male,Health and beauty,1,26.25,Ewallet,5.5
+Yangon,Member,Male,Electronic accessories,4,87.234,Cash,4.7
+Mandalay,Member,Female,Fashion accessories,5,155.19,Cash,6.9
+Mandalay,Member,Female,Food and beverages,9,731.43,Credit card,4.5
+Mandalay,Normal,Male,Electronic accessories,10,833.595,Cash,6.2
+Naypyitaw,Member,Female,Electronic accessories,10,488.985,Cash,7.6
+Naypyitaw,Normal,Male,Food and beverages,1,37.6845,Credit card,7.9
+Naypyitaw,Normal,Male,Food and beverages,5,212.73,Cash,4.5
+Mandalay,Member,Female,Food and beverages,10,767.025,Credit card,8.7
+Naypyitaw,Normal,Female,Sports and travel,4,310.59,Cash,6.1
+Naypyitaw,Member,Female,Food and beverages,1,23.751,Cash,6.4
+Yangon,Member,Male,Food and beverages,5,269.535,Credit card,9.1
+Naypyitaw,Member,Female,Sports and travel,10,572.775,Credit card,7.1
+Naypyitaw,Member,Female,Health and beauty,7,273.0525,Credit card,7.7
+Mandalay,Normal,Male,Sports and travel,6,233.226,Cash,4.5
+Naypyitaw,Normal,Male,Food and beverages,1,22.659,Ewallet,7.2
+Naypyitaw,Member,Female,Electronic accessories,1,103.782,Cash,8.4
+Naypyitaw,Member,Female,Home and lifestyle,6,527.751,Ewallet,5.4
+Yangon,Member,Female,Sports and travel,4,168.21,Cash,9.7
+Yangon,Member,Male,Fashion accessories,10,452.865,Credit card,5.5
+Mandalay,Member,Male,Health and beauty,8,609.588,Cash,4.6
+Yangon,Member,Female,Electronic accessories,5,338.31,Cash,6.6
+Yangon,Normal,Male,Health and beauty,3,205.317,Credit card,6.3
+Yangon,Normal,Female,Sports and travel,5,174.615,Credit card,4.2
+Naypyitaw,Normal,Male,Electronic accessories,4,353.094,Ewallet,4.4
+Mandalay,Normal,Male,Sports and travel,10,360.885,Ewallet,6.7
+Yangon,Normal,Male,Electronic accessories,1,40.53,Ewallet,6.7
+Naypyitaw,Normal,Male,Food and beverages,8,554.148,Cash,8.4
+Naypyitaw,Normal,Female,Electronic accessories,10,344.4,Cash,6.2
+Yangon,Normal,Male,Sports and travel,5,194.985,Ewallet,5
+Mandalay,Member,Male,Home and lifestyle,10,633.99,Cash,6
+Naypyitaw,Member,Female,Sports and travel,10,388.29,Credit card,7
+Mandalay,Member,Female,Sports and travel,4,207.858,Ewallet,6.6
+Mandalay,Normal,Female,Fashion accessories,10,431.445,Cash,7.3
+Yangon,Normal,Male,Fashion accessories,4,156.03,Ewallet,8.3
+Naypyitaw,Normal,Male,Home and lifestyle,1,24.108,Cash,4.3
+Mandalay,Member,Female,Home and lifestyle,9,734.076,Ewallet,9.8
+Mandalay,Normal,Female,Fashion accessories,2,72.87,Ewallet,8.2
+Yangon,Member,Female,Fashion accessories,10,206.43,Credit card,7.2
+Mandalay,Member,Female,Health and beauty,8,212.688,Ewallet,8.7
+Naypyitaw,Member,Female,Home and lifestyle,10,127.26,Credit card,8.4
+Mandalay,Normal,Male,Fashion accessories,2,209.769,Ewallet,7.1
+Mandalay,Normal,Male,Sports and travel,8,637.728,Cash,5.5
+Naypyitaw,Normal,Female,Electronic accessories,2,132.762,Cash,8.5
+Naypyitaw,Normal,Female,Food and beverages,6,568.512,Cash,6.2
+Mandalay,Member,Female,Sports and travel,1,103.0365,Cash,8.9
+Yangon,Member,Female,Sports and travel,8,432.768,Cash,9.6
+Mandalay,Member,Male,Sports and travel,1,77.6685,Credit card,5.4
+Naypyitaw,Member,Female,Fashion accessories,1,33.495,Ewallet,9.1
+Naypyitaw,Normal,Male,Home and lifestyle,2,145.74,Ewallet,9
+Mandalay,Normal,Female,Sports and travel,2,195.951,Cash,6.3
+Mandalay,Normal,Male,Sports and travel,1,92.8725,Credit card,9.5
+Yangon,Member,Male,Electronic accessories,8,203.112,Ewallet,9.8
+Mandalay,Member,Female,Sports and travel,3,152.775,Cash,6.7
+Mandalay,Normal,Female,Food and beverages,6,529.515,Credit card,7.7
+Mandalay,Member,Male,Health and beauty,5,321.7725,Cash,7
+Naypyitaw,Member,Female,Home and lifestyle,6,100.485,Credit card,5.1
+Mandalay,Member,Female,Sports and travel,7,666.939,Credit card,6.2
+Yangon,Normal,Female,Home and lifestyle,5,225.2775,Ewallet,6.1
+Yangon,Normal,Female,Fashion accessories,7,398.958,Ewallet,9.3
+Yangon,Normal,Male,Electronic accessories,7,731.6925,Cash,7.6
+Naypyitaw,Member,Male,Sports and travel,7,429.1665,Credit card,8.2
+Naypyitaw,Member,Female,Fashion accessories,1,54.0435,Ewallet,8.5
+Mandalay,Member,Male,Health and beauty,5,288.015,Ewallet,9.8
+Naypyitaw,Member,Male,Home and lifestyle,5,206.7975,Credit card,8.7
+Yangon,Normal,Male,Home and lifestyle,2,72.933,Ewallet,9.7
+Naypyitaw,Member,Male,Sports and travel,5,377.58,Credit card,4.3
+Mandalay,Normal,Female,Electronic accessories,3,143.9865,Credit card,7.7
+Naypyitaw,Member,Female,Home and lifestyle,6,523.971,Cash,7.3
+Yangon,Member,Female,Home and lifestyle,6,235.872,Credit card,5.9
+Naypyitaw,Normal,Male,Health and beauty,2,132.027,Cash,5
+Yangon,Normal,Male,Food and beverages,6,514.773,Credit card,8
+Yangon,Member,Female,Sports and travel,5,479.9025,Ewallet,7.1
+Mandalay,Normal,Male,Fashion accessories,4,164.682,Credit card,9
+Mandalay,Member,Male,Fashion accessories,2,125.706,Ewallet,6.7
+Mandalay,Member,Female,Food and beverages,10,570.78,Credit card,6.1
+Yangon,Normal,Male,Sports and travel,9,926.9505,Cash,9.3
+Yangon,Normal,Male,Health and beauty,6,160.209,Ewallet,7
+Yangon,Member,Male,Fashion accessories,8,728.112,Credit card,7.2
+Mandalay,Normal,Male,Electronic accessories,10,240.975,Ewallet,8.2
+Naypyitaw,Normal,Female,Food and beverages,9,154.1295,Ewallet,8.4
+Yangon,Normal,Female,Home and lifestyle,5,148.68,Ewallet,6.2
+Naypyitaw,Normal,Male,Home and lifestyle,7,122.5245,Ewallet,7.4
+Mandalay,Member,Female,Fashion accessories,1,77.658,Credit card,5
+Yangon,Normal,Male,Home and lifestyle,1,102.837,Ewallet,6.9
+Yangon,Normal,Female,Fashion accessories,4,306.81,Credit card,4.9
+Naypyitaw,Member,Female,Food and beverages,6,551.124,Ewallet,5.1
+Yangon,Normal,Male,Home and lifestyle,3,96.642,Ewallet,9.1
+Naypyitaw,Member,Male,Health and beauty,1,79.674,Credit card,7.1
+Mandalay,Member,Female,Sports and travel,4,84.756,Credit card,5
+Naypyitaw,Member,Male,Electronic accessories,6,118.251,Credit card,5.5
+Mandalay,Normal,Female,Food and beverages,1,74.76,Credit card,9.2
+Mandalay,Member,Male,Home and lifestyle,4,163.002,Ewallet,4.9
+Yangon,Normal,Female,Fashion accessories,10,308.91,Ewallet,8.9
+Yangon,Normal,Male,Sports and travel,9,575.9775,Credit card,6
+Mandalay,Normal,Female,Sports and travel,5,270.585,Cash,4.2
+Yangon,Normal,Female,Electronic accessories,6,416.178,Cash,7.3
+Mandalay,Normal,Male,Fashion accessories,3,180.4005,Ewallet,6.5
+Mandalay,Normal,Female,Fashion accessories,9,513.2295,Cash,8.9
+Mandalay,Normal,Female,Health and beauty,9,550.368,Cash,9.7
+Naypyitaw,Normal,Male,Electronic accessories,6,139.923,Credit card,8.6
+Yangon,Member,Male,Electronic accessories,7,142.002,Cash,6.9
+Mandalay,Normal,Male,Home and lifestyle,3,118.062,Credit card,7.7
+Mandalay,Member,Female,Fashion accessories,2,151.284,Cash,9.5
+Naypyitaw,Member,Female,Food and beverages,10,1034.46,Ewallet,4.5
+Yangon,Member,Male,Food and beverages,6,262.458,Ewallet,5.6
+Yangon,Member,Female,Home and lifestyle,3,228.123,Ewallet,8.2
+Mandalay,Normal,Male,Electronic accessories,9,203.931,Cash,7.3
+Naypyitaw,Normal,Male,Food and beverages,10,936.6,Credit card,4.4
+Mandalay,Normal,Female,Electronic accessories,8,356.328,Ewallet,5.7
+Yangon,Member,Male,Electronic accessories,6,469.413,Ewallet,5
+Mandalay,Normal,Male,Fashion accessories,2,208.425,Cash,9
+Yangon,Normal,Female,Food and beverages,10,852.705,Credit card,6.3
+Naypyitaw,Normal,Female,Sports and travel,10,517.965,Credit card,9.4
+Yangon,Normal,Female,Fashion accessories,9,621.243,Cash,7.7
+Mandalay,Normal,Female,Fashion accessories,7,586.971,Credit card,5.5
+Naypyitaw,Normal,Female,Sports and travel,7,543.753,Ewallet,4.1
+Mandalay,Member,Female,Home and lifestyle,5,430.71,Credit card,7.6
+Mandalay,Member,Male,Sports and travel,10,280.035,Cash,8.6
+Yangon,Member,Male,Food and beverages,7,74.4555,Ewallet,8.3
+Mandalay,Normal,Male,Food and beverages,2,152.019,Credit card,8.1
+Yangon,Normal,Male,Sports and travel,5,451.0275,Credit card,8.6
+Mandalay,Member,Male,Fashion accessories,7,597.6285,Ewallet,6.3
+Mandalay,Normal,Male,Food and beverages,4,253.26,Cash,5.8
+Naypyitaw,Normal,Male,Food and beverages,4,133.434,Ewallet,6.2
+Yangon,Normal,Female,Health and beauty,4,269.934,Cash,7.7
+Mandalay,Normal,Male,Health and beauty,2,145.971,Ewallet,8.1
+Naypyitaw,Normal,Male,Food and beverages,3,85.743,Cash,7.3
+Yangon,Member,Female,Health and beauty,4,326.256,Cash,8.4
+Naypyitaw,Member,Female,Fashion accessories,2,195.258,Credit card,8
+Mandalay,Member,Female,Fashion accessories,4,75.936,Credit card,9.5
+Mandalay,Normal,Male,Sports and travel,3,198.639,Ewallet,7
+Yangon,Normal,Male,Health and beauty,4,217.182,Credit card,9.8
+Yangon,Normal,Female,Food and beverages,3,164.871,Cash,9.2
+Yangon,Normal,Female,Sports and travel,5,226.065,Ewallet,7.7
+Naypyitaw,Normal,Male,Fashion accessories,10,625.905,Cash,5.3
+Yangon,Normal,Male,Health and beauty,5,76.755,Cash,4.4
+Naypyitaw,Member,Male,Health and beauty,6,293.139,Credit card,4.3
+Naypyitaw,Member,Female,Home and lifestyle,7,178.164,Ewallet,9.4
+Yangon,Member,Female,Sports and travel,1,47.859,Cash,9.8
+Yangon,Member,Female,Sports and travel,3,236.88,Ewallet,4.8
+Mandalay,Member,Male,Sports and travel,3,304.92,Cash,5.3
+Mandalay,Normal,Male,Health and beauty,3,46.683,Credit card,8.7
+Yangon,Normal,Male,Food and beverages,3,164.43,Credit card,9.5
+Naypyitaw,Normal,Female,Sports and travel,9,440.937,Ewallet,5.3
+Naypyitaw,Normal,Female,Fashion accessories,5,193.4625,Cash,9.2
+Yangon,Member,Female,Home and lifestyle,2,147.672,Ewallet,9.6
+Naypyitaw,Normal,Male,Electronic accessories,1,87.234,Ewallet,6.4
+Naypyitaw,Normal,Female,Fashion accessories,1,68.2395,Credit card,4.5
+Naypyitaw,Normal,Male,Food and beverages,10,814.38,Ewallet,6.9
+Mandalay,Normal,Female,Sports and travel,6,343.413,Ewallet,7.8
+Naypyitaw,Member,Female,Fashion accessories,7,381.3915,Cash,4.5
+Mandalay,Normal,Male,Home and lifestyle,4,133.35,Cash,8.6
+Yangon,Member,Female,Fashion accessories,7,394.3275,Ewallet,5.2
+Naypyitaw,Member,Female,Food and beverages,4,209.118,Credit card,6.4
+Yangon,Normal,Male,Fashion accessories,1,32.1405,Ewallet,5.2
+Mandalay,Member,Male,Food and beverages,2,121.569,Ewallet,8.9
+Yangon,Normal,Female,Electronic accessories,1,30.408,Credit card,6.2
+Naypyitaw,Member,Female,Food and beverages,9,935.2665,Cash,6.7
+Mandalay,Member,Male,Fashion accessories,3,293.643,Cash,7.2
+Naypyitaw,Member,Male,Sports and travel,1,84.9765,Credit card,9
+Yangon,Member,Male,Food and beverages,10,708.225,Ewallet,4.2
+Yangon,Member,Female,Sports and travel,9,365.904,Ewallet,4.2
+Mandalay,Member,Male,Sports and travel,6,457.38,Cash,6.9
+Naypyitaw,Member,Male,Electronic accessories,5,461.5275,Ewallet,4.4
+Yangon,Member,Male,Food and beverages,6,620.739,Credit card,4
+Naypyitaw,Member,Female,Fashion accessories,6,273.798,Ewallet,8.5
+Yangon,Normal,Female,Food and beverages,3,225.792,Credit card,9.2
+Yangon,Member,Female,Food and beverages,1,96.1905,Cash,9.8
+Mandalay,Member,Female,Home and lifestyle,7,695.2365,Credit card,4.9
+Mandalay,Normal,Female,Fashion accessories,10,874.125,Credit card,4.4
+Mandalay,Member,Male,Fashion accessories,1,95.9175,Cash,6.8
+Mandalay,Member,Female,Food and beverages,2,165.648,Cash,9.1
+Yangon,Normal,Male,Sports and travel,2,127.827,Ewallet,8.7
+Mandalay,Member,Male,Health and beauty,10,867.09,Cash,5
+Yangon,Member,Male,Home and lifestyle,3,167.895,Ewallet,7.5
+Yangon,Normal,Female,Fashion accessories,1,12.6945,Credit card,8.2
+Yangon,Normal,Male,Sports and travel,10,673.995,Credit card,6.7
+Yangon,Normal,Male,Electronic accessories,3,246.6765,Ewallet,5.4
+Yangon,Member,Male,Food and beverages,2,175.917,Credit card,7
+Mandalay,Normal,Male,Home and lifestyle,3,314.055,Ewallet,4.7
+Mandalay,Member,Male,Food and beverages,3,251.7165,Credit card,5
+Mandalay,Member,Male,Health and beauty,10,697.935,Credit card,5
+Yangon,Normal,Male,Health and beauty,7,212.7825,Credit card,6
+Naypyitaw,Normal,Female,Electronic accessories,1,48.51,Cash,6.3
+Mandalay,Member,Female,Food and beverages,5,92.5575,Cash,8.5
+Mandalay,Normal,Male,Fashion accessories,3,165.123,Ewallet,7.5
+Mandalay,Member,Female,Food and beverages,3,311.1885,Ewallet,6.4
+Naypyitaw,Member,Female,Electronic accessories,8,743.82,Ewallet,4.7
+Mandalay,Member,Male,Electronic accessories,2,116.907,Ewallet,6
+Naypyitaw,Member,Female,Food and beverages,8,609.168,Credit card,4
+Naypyitaw,Member,Male,Electronic accessories,5,63.2625,Ewallet,5.5
+Yangon,Member,Male,Home and lifestyle,9,182.952,Ewallet,8.7
+Naypyitaw,Normal,Male,Health and beauty,6,442.323,Cash,7.4
+Mandalay,Member,Male,Fashion accessories,1,35.3115,Cash,5.6
+Naypyitaw,Member,Female,Sports and travel,2,32.529,Cash,6.3
+Naypyitaw,Normal,Male,Electronic accessories,10,259.77,Cash,7.1
+Mandalay,Normal,Male,Electronic accessories,5,397.215,Ewallet,7.8
+Mandalay,Normal,Female,Health and beauty,6,351.603,Cash,9.9
+Yangon,Member,Male,Home and lifestyle,10,764.19,Cash,7.3
+Mandalay,Member,Male,Sports and travel,9,352.674,Ewallet,5.1
+Mandalay,Member,Male,Fashion accessories,4,252.756,Credit card,9.4
+Yangon,Normal,Female,Electronic accessories,3,49.4235,Credit card,5.8
+Naypyitaw,Normal,Female,Electronic accessories,1,104.6745,Credit card,8
+Yangon,Member,Female,Fashion accessories,3,277.6725,Ewallet,7.9
+Yangon,Member,Female,Sports and travel,5,146.6325,Cash,5.9
+Yangon,Member,Male,Fashion accessories,1,58.2225,Credit card,4.9
+Mandalay,Normal,Female,Sports and travel,3,135.3555,Cash,9.3
+Naypyitaw,Member,Male,Sports and travel,7,125.979,Credit card,7.9
+Mandalay,Member,Female,Fashion accessories,6,370.125,Credit card,5.9
+Naypyitaw,Member,Female,Food and beverages,10,914.55,Credit card,9.9
+Naypyitaw,Normal,Female,Sports and travel,2,207.48,Cash,7.7
+Yangon,Normal,Female,Fashion accessories,4,204.246,Ewallet,7.6
+Mandalay,Member,Male,Food and beverages,3,181.881,Ewallet,7.7
+Mandalay,Normal,Female,Health and beauty,4,75.474,Ewallet,6.4
+Naypyitaw,Member,Female,Health and beauty,6,300.573,Ewallet,4.4
+Mandalay,Normal,Female,Sports and travel,2,85.302,Credit card,4.1
+Yangon,Member,Male,Fashion accessories,10,588.42,Ewallet,4.4
+Mandalay,Member,Male,Food and beverages,2,196.14,Cash,5.5
+Mandalay,Normal,Female,Health and beauty,3,231.2415,Ewallet,4
+Naypyitaw,Normal,Male,Health and beauty,8,282.576,Credit card,9.3
+Yangon,Normal,Female,Electronic accessories,10,477.54,Credit card,4.8
+Mandalay,Member,Male,Fashion accessories,2,175.917,Cash,4.6
+Mandalay,Member,Female,Sports and travel,7,470.988,Credit card,7.3
+Yangon,Member,Female,Food and beverages,4,308.574,Cash,6
+Naypyitaw,Normal,Male,Health and beauty,10,618.975,Ewallet,8.1
+Yangon,Member,Male,Food and beverages,6,305.55,Ewallet,9.4
+Mandalay,Member,Female,Electronic accessories,1,41.454,Cash,6.5
+Mandalay,Normal,Female,Sports and travel,1,36.5505,Credit card,7
+Naypyitaw,Normal,Female,Fashion accessories,6,310.716,Ewallet,7.1
+Yangon,Member,Male,Fashion accessories,2,45.108,Ewallet,6.6
+Mandalay,Member,Female,Sports and travel,6,145.404,Ewallet,4.9
+Mandalay,Member,Female,Home and lifestyle,2,103.11,Credit card,6.4
+Mandalay,Member,Female,Sports and travel,2,136.143,Credit card,8
+Yangon,Member,Male,Home and lifestyle,10,667.38,Cash,4.3
+Naypyitaw,Member,Male,Sports and travel,2,153.048,Cash,6.1
+Yangon,Normal,Female,Food and beverages,3,211.365,Cash,7.5
+Naypyitaw,Member,Female,Sports and travel,9,663.2955,Cash,6.7
+Naypyitaw,Member,Male,Food and beverages,7,404.544,Ewallet,5.2
+Yangon,Member,Male,Health and beauty,10,510.615,Cash,8.8
+Naypyitaw,Member,Female,Fashion accessories,7,539.343,Cash,9.5
+Naypyitaw,Normal,Female,Food and beverages,9,497.07,Cash,7.6
+Yangon,Member,Female,Home and lifestyle,5,458.6925,Cash,6.6
+Yangon,Member,Female,Sports and travel,4,113.568,Ewallet,6.9
+Mandalay,Normal,Male,Home and lifestyle,4,261.198,Ewallet,4.3
+Yangon,Member,Male,Electronic accessories,9,657.531,Credit card,7.8
+Naypyitaw,Normal,Male,Home and lifestyle,10,1023.75,Ewallet,8
+Naypyitaw,Normal,Female,Fashion accessories,8,507.444,Ewallet,9.6
+Mandalay,Normal,Male,Food and beverages,3,101.808,Credit card,4.3
+Mandalay,Member,Female,Fashion accessories,10,207.585,Credit card,5
+Mandalay,Member,Male,Health and beauty,9,760.4415,Cash,9.2
+Mandalay,Member,Female,Home and lifestyle,9,835.2855,Cash,6.3
+Mandalay,Normal,Male,Health and beauty,7,527.5095,Cash,8.9
+Mandalay,Normal,Female,Electronic accessories,4,180.6,Ewallet,7.6
+Naypyitaw,Member,Male,Food and beverages,1,72.429,Cash,4.8
+Naypyitaw,Normal,Male,Fashion accessories,8,131.208,Ewallet,9.1
+Yangon,Normal,Male,Sports and travel,3,80.955,Ewallet,6.1
+Yangon,Member,Male,Food and beverages,6,507.906,Cash,9.1
+Naypyitaw,Member,Female,Home and lifestyle,4,317.226,Ewallet,8.3
+Naypyitaw,Normal,Female,Electronic accessories,9,733.6035,Ewallet,7.2
+Naypyitaw,Normal,Female,Health and beauty,9,130.8825,Ewallet,6
+Naypyitaw,Member,Male,Fashion accessories,8,829.08,Ewallet,8.5
+Yangon,Normal,Female,Health and beauty,5,187.32,Credit card,6.6
+Yangon,Member,Female,Fashion accessories,7,525.231,Ewallet,4.5
+Yangon,Member,Male,Electronic accessories,3,37.611,Credit card,8.1
+Yangon,Normal,Male,Fashion accessories,3,142.947,Credit card,7.2
+Mandalay,Member,Female,Fashion accessories,6,110.124,Credit card,6.1
+Mandalay,Normal,Female,Fashion accessories,7,187.866,Cash,7.1
+Naypyitaw,Member,Female,Sports and travel,9,856.4535,Cash,5.1
+Mandalay,Normal,Male,Home and lifestyle,3,138.978,Credit card,7.9
+Naypyitaw,Member,Female,Food and beverages,7,270.2595,Cash,7.4
+Mandalay,Member,Male,Food and beverages,4,98.028,Ewallet,7.4
+Naypyitaw,Member,Female,Health and beauty,8,239.4,Cash,6.6
+Naypyitaw,Member,Male,Home and lifestyle,3,175.0455,Credit card,5.9
+Mandalay,Normal,Male,Sports and travel,10,732.27,Credit card,8.9
+Naypyitaw,Normal,Male,Fashion accessories,4,408.492,Ewallet,6.8
+Mandalay,Member,Female,Home and lifestyle,7,383.523,Cash,9.3
+Yangon,Member,Female,Fashion accessories,4,93.744,Credit card,4.4
+Yangon,Normal,Male,Health and beauty,3,176.4,Ewallet,4.8
+Yangon,Member,Male,Fashion accessories,1,20.685,Ewallet,9.5
+Mandalay,Normal,Male,Electronic accessories,7,557.718,Ewallet,8.9
+Mandalay,Member,Male,Food and beverages,1,56.406,Ewallet,6.4
+Naypyitaw,Member,Male,Health and beauty,10,860.475,Credit card,6
+Naypyitaw,Member,Female,Home and lifestyle,7,596.82,Credit card,8.1
+Naypyitaw,Normal,Male,Electronic accessories,10,616.98,Ewallet,9
+Mandalay,Member,Male,Electronic accessories,8,769.104,Ewallet,6
+Yangon,Normal,Male,Home and lifestyle,9,887.922,Cash,9.8
+Naypyitaw,Normal,Male,Home and lifestyle,7,408.7335,Cash,8.5
+Naypyitaw,Normal,Male,Food and beverages,1,89.0715,Ewallet,8.8
+Yangon,Member,Female,Sports and travel,2,150.423,Ewallet,8.8
+Yangon,Member,Male,Home and lifestyle,2,79.149,Ewallet,9.5
+Naypyitaw,Member,Female,Sports and travel,8,266.028,Credit card,5.6
+Naypyitaw,Member,Female,Food and beverages,1,40.341,Cash,8.6
+Mandalay,Member,Male,Fashion accessories,10,684.915,Credit card,5.2
+Naypyitaw,Member,Female,Home and lifestyle,5,55.2825,Credit card,5.8
+Mandalay,Member,Female,Home and lifestyle,9,116.1405,Credit card,8
+Naypyitaw,Member,Male,Health and beauty,7,597.0405,Cash,9
+Mandalay,Member,Female,Fashion accessories,4,93.744,Ewallet,4.1
+Yangon,Normal,Female,Food and beverages,5,143.22,Credit card,8.6
+Yangon,Member,Female,Electronic accessories,10,182.91,Ewallet,7
+Mandalay,Normal,Male,Home and lifestyle,5,384.72,Ewallet,8.4
+Naypyitaw,Member,Female,Fashion accessories,3,267.3405,Ewallet,7.4
+Yangon,Normal,Female,Fashion accessories,8,817.236,Credit card,6.2
+Mandalay,Member,Female,Electronic accessories,8,300.216,Ewallet,4.9
+Yangon,Normal,Female,Home and lifestyle,6,608.076,Cash,4.5
+Yangon,Member,Male,Food and beverages,10,197.925,Ewallet,5.6
+Yangon,Normal,Female,Food and beverages,4,232.638,Ewallet,8
+Mandalay,Member,Female,Food and beverages,10,810.6,Credit card,5.6
+Mandalay,Normal,Male,Electronic accessories,10,757.365,Credit card,4.2
+Yangon,Member,Female,Fashion accessories,8,536.592,Ewallet,9.9
+Yangon,Member,Female,Health and beauty,5,56.1225,Ewallet,7.6
+Yangon,Member,Male,Health and beauty,4,233.1,Credit card,6.6
+Mandalay,Normal,Female,Home and lifestyle,8,801.864,Ewallet,4.7
+Naypyitaw,Normal,Female,Fashion accessories,3,239.589,Credit card,9.8
+Mandalay,Normal,Male,Sports and travel,6,86.247,Cash,6.3
+Mandalay,Normal,Female,Electronic accessories,4,401.688,Cash,7.9
+Yangon,Normal,Female,Home and lifestyle,6,72.009,Cash,7.7
+Mandalay,Member,Female,Sports and travel,4,401.268,Ewallet,4.5
+Naypyitaw,Member,Female,Health and beauty,7,631.1445,Credit card,8
+Naypyitaw,Member,Female,Sports and travel,7,499.7265,Ewallet,5.7
+Naypyitaw,Normal,Female,Food and beverages,1,55.041,Credit card,6.3
+Naypyitaw,Member,Male,Food and beverages,2,137.865,Cash,6
+Mandalay,Normal,Female,Food and beverages,5,151.515,Credit card,8
+Naypyitaw,Member,Male,Health and beauty,7,480.0285,Credit card,4.2
+Mandalay,Normal,Male,Sports and travel,1,98.049,Cash,9.6
+Naypyitaw,Member,Male,Sports and travel,5,132.5625,Cash,6.1
+Mandalay,Member,Male,Electronic accessories,9,830.3715,Ewallet,5.6
+Naypyitaw,Normal,Male,Health and beauty,8,183.12,Cash,8.3
+Yangon,Normal,Female,Sports and travel,4,397.992,Ewallet,7.8
+Yangon,Member,Female,Fashion accessories,1,32.151,Credit card,4.1
+Naypyitaw,Normal,Female,Home and lifestyle,8,369.684,Cash,8.8
+Naypyitaw,Member,Female,Health and beauty,5,53.34,Ewallet,4.1
+Yangon,Normal,Male,Electronic accessories,7,548.163,Credit card,9
+Naypyitaw,Normal,Male,Electronic accessories,8,603.876,Ewallet,5.5
+Naypyitaw,Normal,Female,Health and beauty,5,57.6975,Credit card,9.3
+Naypyitaw,Member,Male,Health and beauty,3,190.4805,Credit card,5.6
+Yangon,Normal,Male,Sports and travel,7,432.9885,Ewallet,9.7
+Yangon,Normal,Male,Fashion accessories,1,48.7305,Credit card,4
+Naypyitaw,Member,Male,Health and beauty,4,287.91,Credit card,9.2
+Mandalay,Normal,Female,Home and lifestyle,10,1022.385,Credit card,4.9
+Yangon,Member,Male,Electronic accessories,7,680.61,Credit card,9.3
+Yangon,Normal,Female,Electronic accessories,2,97.881,Credit card,6.6
+Mandalay,Normal,Male,Fashion accessories,2,57.078,Ewallet,4.3
+Naypyitaw,Member,Female,Home and lifestyle,1,63.9135,Cash,5.5
+Yangon,Member,Female,Sports and travel,10,257.145,Cash,8.1
+Mandalay,Normal,Male,Health and beauty,1,97.419,Credit card,9.8
+Naypyitaw,Member,Male,Home and lifestyle,5,455.1225,Ewallet,9.4
+Mandalay,Normal,Male,Sports and travel,6,144.963,Ewallet,7.9
+Naypyitaw,Member,Female,Electronic accessories,8,253.68,Ewallet,5.1
+Naypyitaw,Member,Male,Fashion accessories,7,495.3165,Ewallet,6.9
+Yangon,Member,Female,Fashion accessories,9,462.672,Cash,8
+Mandalay,Member,Female,Electronic accessories,9,714.3255,Cash,8
+Yangon,Normal,Female,Home and lifestyle,4,325.374,Cash,4.2
+Yangon,Normal,Female,Sports and travel,2,195.678,Credit card,8.5
+Yangon,Normal,Female,Electronic accessories,4,210.966,Cash,9
+Mandalay,Normal,Female,Health and beauty,1,18.6375,Cash,8.6
+Naypyitaw,Normal,Female,Fashion accessories,10,652.89,Ewallet,6
+Mandalay,Normal,Male,Health and beauty,8,90.3,Ewallet,6.2
+Yangon,Normal,Female,Electronic accessories,10,422.73,Credit card,5
+Naypyitaw,Member,Female,Sports and travel,5,341.0925,Credit card,6.5
+Yangon,Normal,Male,Electronic accessories,1,99.9075,Cash,6
+Yangon,Member,Female,Electronic accessories,8,408.408,Cash,5
+Mandalay,Normal,Female,Food and beverages,8,446.964,Ewallet,5
+Naypyitaw,Normal,Female,Fashion accessories,7,333.984,Cash,9.2
+Yangon,Normal,Male,Food and beverages,8,284.592,Ewallet,9.6
+Mandalay,Member,Male,Health and beauty,4,403.872,Credit card,8.4
+Mandalay,Member,Male,Food and beverages,5,247.59,Credit card,6
+Mandalay,Normal,Male,Electronic accessories,4,222.138,Ewallet,6.7
+Yangon,Member,Female,Home and lifestyle,2,100.128,Credit card,4.1
+Naypyitaw,Member,Male,Sports and travel,1,10.6785,Cash,5.9
+Yangon,Normal,Female,Health and beauty,3,216.4365,Cash,8.7
+Mandalay,Member,Female,Sports and travel,7,441.588,Credit card,4.5
+Yangon,Member,Female,Sports and travel,4,92.442,Credit card,6.6
+Mandalay,Member,Female,Health and beauty,9,681.4395,Credit card,7.7
+Yangon,Member,Male,Fashion accessories,3,130.032,Credit card,8.5
+Naypyitaw,Normal,Male,Electronic accessories,10,681.975,Cash,5.2
+Yangon,Member,Female,Electronic accessories,10,779.31,Credit card,4.3
+Yangon,Normal,Male,Electronic accessories,8,88.704,Cash,7.6
+Mandalay,Normal,Male,Health and beauty,4,262.794,Cash,9.5
+Mandalay,Member,Female,Sports and travel,8,99.54,Cash,4.1
+Yangon,Member,Male,Health and beauty,1,95.865,Ewallet,9.2
+Mandalay,Member,Female,Home and lifestyle,7,299.3655,Ewallet,5.4
+Yangon,Normal,Male,Fashion accessories,1,54.999,Cash,5.8
+Yangon,Member,Male,Fashion accessories,5,202.335,Ewallet,5.6
+Mandalay,Normal,Male,Sports and travel,6,281.169,Credit card,5.1
+Naypyitaw,Normal,Male,Electronic accessories,10,586.635,Cash,5.8
+Naypyitaw,Member,Female,Sports and travel,6,184.086,Ewallet,5
+Yangon,Normal,Male,Fashion accessories,3,163.611,Cash,7.9
+Mandalay,Normal,Male,Electronic accessories,1,63.315,Cash,6
+Yangon,Member,Female,Sports and travel,2,82.887,Credit card,5
+Naypyitaw,Member,Female,Food and beverages,2,31.227,Credit card,8.9
+Yangon,Normal,Male,Fashion accessories,1,22.386,Cash,5.9
+Yangon,Member,Male,Electronic accessories,3,295.407,Credit card,5.9
+Yangon,Member,Male,Electronic accessories,1,76.923,Ewallet,9.7
+Naypyitaw,Normal,Female,Sports and travel,1,23.499,Credit card,8.6
+Naypyitaw,Member,Female,Food and beverages,9,688.716,Cash,4
+Yangon,Normal,Female,Fashion accessories,6,624.33,Cash,4.2
+Yangon,Normal,Male,Fashion accessories,1,77.805,Cash,9.2
+Yangon,Normal,Female,Fashion accessories,2,206.808,Ewallet,9.2
+Naypyitaw,Normal,Male,Health and beauty,7,390.9465,Ewallet,5
+Mandalay,Normal,Female,Electronic accessories,10,554.295,Ewallet,10
+Yangon,Member,Female,Health and beauty,5,503.7375,Ewallet,8.8
+Mandalay,Normal,Female,Fashion accessories,9,345.0195,Cash,4.2
+Mandalay,Normal,Male,Food and beverages,8,177.408,Cash,6.3
+Yangon,Member,Female,Home and lifestyle,4,118.902,Cash,8.2
+Mandalay,Normal,Male,Health and beauty,6,362.817,Cash,5.1
+Yangon,Member,Female,Food and beverages,9,450.1035,Cash,5
+Naypyitaw,Member,Female,Home and lifestyle,1,90.5835,Ewallet,7
+Yangon,Member,Male,Sports and travel,2,26.796,Ewallet,7.8
+Mandalay,Normal,Female,Home and lifestyle,9,106.596,Credit card,4.3
+Mandalay,Normal,Female,Home and lifestyle,7,375.3645,Cash,7
+Yangon,Member,Female,Electronic accessories,3,250.7085,Cash,6.6
+Naypyitaw,Member,Male,Health and beauty,3,106.5015,Ewallet,7.3
+Mandalay,Member,Male,Sports and travel,8,760.452,Credit card,6.5
+Naypyitaw,Member,Female,Health and beauty,2,131.922,Ewallet,4.9
+Naypyitaw,Member,Male,Food and beverages,3,76.5765,Credit card,4.3
+Yangon,Normal,Male,Sports and travel,4,271.278,Ewallet,9.3
+Yangon,Member,Male,Food and beverages,7,182.427,Credit card,7.1
+Naypyitaw,Normal,Male,Fashion accessories,1,59.325,Ewallet,9.6
+Mandalay,Member,Female,Electronic accessories,10,225.015,Cash,6.2
+Yangon,Member,Male,Sports and travel,6,561.078,Cash,9.9
+Yangon,Member,Male,Home and lifestyle,4,97.818,Credit card,5.9
+Naypyitaw,Normal,Male,Home and lifestyle,8,548.184,Ewallet,6.3
+Naypyitaw,Member,Male,Fashion accessories,1,54.9675,Cash,4
+Mandalay,Member,Male,Electronic accessories,1,41.7375,Cash,6.1
+Yangon,Normal,Female,Electronic accessories,8,756.168,Credit card,4.5
+Mandalay,Member,Female,Electronic accessories,8,101.64,Ewallet,8.6
+Mandalay,Member,Female,Food and beverages,10,348.705,Ewallet,6
+Naypyitaw,Member,Female,Fashion accessories,8,85.512,Credit card,9.5
+Mandalay,Member,Male,Sports and travel,10,335.895,Credit card,9.9
+Yangon,Member,Female,Home and lifestyle,6,216.846,Ewallet,7.5
+Yangon,Member,Female,Food and beverages,2,175.014,Cash,7.6
+Yangon,Normal,Male,Sports and travel,7,335.013,Cash,5
+Yangon,Member,Male,Food and beverages,1,92.295,Ewallet,6.7
+Yangon,Member,Female,Electronic accessories,10,771.435,Ewallet,9.5
+Naypyitaw,Normal,Female,Fashion accessories,8,102.396,Ewallet,6.8
+Yangon,Member,Male,Sports and travel,10,807.66,Ewallet,5.6
+Naypyitaw,Normal,Female,Health and beauty,5,439.215,Cash,7.2
+Mandalay,Normal,Female,Electronic accessories,8,486.444,Cash,8.1
+Naypyitaw,Member,Female,Fashion accessories,5,485.5725,Credit card,8.6
+Mandalay,Normal,Male,Electronic accessories,5,148.995,Cash,9.4
+Mandalay,Member,Male,Electronic accessories,6,317.835,Credit card,8.9
+Mandalay,Normal,Male,Health and beauty,8,832.944,Credit card,4.2
+Naypyitaw,Normal,Male,Fashion accessories,7,446.439,Ewallet,5
+Naypyitaw,Member,Female,Food and beverages,6,297.801,Cash,8.8
+Naypyitaw,Member,Male,Health and beauty,7,629.16,Cash,5.3
+Yangon,Member,Male,Food and beverages,9,331.128,Ewallet,4.6
+Naypyitaw,Member,Female,Electronic accessories,9,423.738,Credit card,7.5
+Mandalay,Normal,Male,Home and lifestyle,4,193.074,Ewallet,5.1
+Yangon,Member,Female,Health and beauty,5,145.5825,Credit card,4.2
+Yangon,Normal,Male,Food and beverages,7,84.7455,Cash,8.1
+Naypyitaw,Normal,Female,Health and beauty,2,122.472,Ewallet,6
+Naypyitaw,Member,Female,Home and lifestyle,4,329.196,Cash,7.9
+Naypyitaw,Normal,Male,Health and beauty,10,888.405,Credit card,8.8
+Mandalay,Normal,Female,Health and beauty,5,435.12,Credit card,6.6
+Yangon,Member,Female,Food and beverages,2,167.034,Ewallet,6.2
+Mandalay,Normal,Female,Home and lifestyle,10,514.605,Credit card,4.2
+Mandalay,Member,Female,Food and beverages,3,91.8225,Credit card,7.3
+Naypyitaw,Normal,Female,Electronic accessories,4,235.746,Ewallet,8.6
+Yangon,Normal,Female,Home and lifestyle,8,782.208,Cash,6.8
+Yangon,Member,Male,Fashion accessories,8,431.256,Ewallet,7.6
+Yangon,Member,Female,Food and beverages,3,313.74,Cash,5.8
+Naypyitaw,Normal,Female,Electronic accessories,6,223.587,Cash,4.1
+Naypyitaw,Member,Male,Sports and travel,1,44.9925,Credit card,9.3
+Yangon,Normal,Female,Fashion accessories,4,397.614,Cash,6.8
+Mandalay,Normal,Male,Home and lifestyle,3,217.2555,Ewallet,8.7
+Mandalay,Member,Female,Electronic accessories,3,82.719,Ewallet,6.3
+Naypyitaw,Member,Female,Home and lifestyle,9,338.2155,Credit card,5.1
+Mandalay,Normal,Female,Home and lifestyle,6,103.131,Cash,7
+Naypyitaw,Member,Female,Home and lifestyle,2,26.733,Credit card,5.2
+Naypyitaw,Normal,Female,Sports and travel,7,611.079,Credit card,6.6
+Naypyitaw,Member,Female,Sports and travel,6,221.886,Ewallet,6.5
+Mandalay,Normal,Female,Electronic accessories,4,57.876,Ewallet,9
+Mandalay,Member,Male,Sports and travel,1,92.7255,Credit card,5.2
+Yangon,Member,Female,Health and beauty,9,374.409,Credit card,6.8
+Mandalay,Normal,Female,Electronic accessories,9,833.9625,Credit card,7.6
+Mandalay,Normal,Male,Sports and travel,2,53.151,Ewallet,7.2
+Mandalay,Normal,Male,Home and lifestyle,6,629.496,Ewallet,7.1
+Naypyitaw,Member,Female,Fashion accessories,2,175.035,Credit card,9.5
+Yangon,Normal,Female,Food and beverages,10,781.62,Ewallet,5.1
+Naypyitaw,Normal,Male,Health and beauty,7,470.988,Ewallet,7.6
+Mandalay,Normal,Female,Home and lifestyle,6,397.845,Ewallet,9.8
+Naypyitaw,Member,Male,Home and lifestyle,3,270.018,Ewallet,5.1
+Naypyitaw,Normal,Female,Health and beauty,7,579.8415,Ewallet,7.5
+Yangon,Normal,Female,Sports and travel,5,469.77,Cash,7.4
+Yangon,Member,Female,Health and beauty,3,290.0835,Cash,4.2
+Naypyitaw,Normal,Female,Food and beverages,6,360.927,Ewallet,5.9
+Yangon,Normal,Male,Food and beverages,4,279.384,Ewallet,6.9
+Naypyitaw,Member,Male,Fashion accessories,9,943.299,Cash,6.6
+Yangon,Normal,Female,Home and lifestyle,10,479.64,Ewallet,5.7
+Yangon,Normal,Male,Health and beauty,5,266.6475,Credit card,5.3
+Yangon,Member,Male,Health and beauty,7,74.088,Cash,4.2
+Yangon,Normal,Female,Electronic accessories,7,690.018,Credit card,7.3
+Naypyitaw,Member,Male,Electronic accessories,2,176.925,Credit card,5.3
+Mandalay,Member,Male,Fashion accessories,1,56.469,Ewallet,4.7
+Naypyitaw,Member,Male,Home and lifestyle,5,188.0025,Ewallet,7.9
+Mandalay,Normal,Female,Food and beverages,8,222.012,Ewallet,8.9
+Mandalay,Member,Male,Health and beauty,3,125.7165,Ewallet,9.3
+Mandalay,Member,Female,Home and lifestyle,3,68.985,Ewallet,4.7
+Mandalay,Member,Female,Food and beverages,4,263.97,Ewallet,8.7
+Naypyitaw,Member,Female,Food and beverages,4,88.368,Cash,7.6
+Mandalay,Member,Male,Home and lifestyle,6,415.233,Cash,5.7
+Yangon,Normal,Female,Fashion accessories,7,312.8895,Cash,6.8
+Naypyitaw,Member,Male,Food and beverages,9,477.1305,Cash,5.4
+Mandalay,Normal,Male,Electronic accessories,6,289.926,Cash,7.1
+Naypyitaw,Normal,Female,Home and lifestyle,10,165.9,Cash,7.8
+Yangon,Member,Female,Food and beverages,9,932.337,Cash,8.4
+Naypyitaw,Member,Male,Fashion accessories,1,96.579,Cash,9.8
+Yangon,Member,Male,Electronic accessories,2,43.869,Cash,9.8
+Yangon,Normal,Female,Fashion accessories,1,16.275,Credit card,7.4
+Naypyitaw,Member,Male,Electronic accessories,3,304.983,Cash,6.7
+Mandalay,Normal,Male,Food and beverages,2,69.993,Credit card,6.4
+Mandalay,Normal,Female,Electronic accessories,2,80.367,Credit card,5.8
+Yangon,Normal,Female,Home and lifestyle,9,314.685,Ewallet,7.2
+Yangon,Member,Male,Home and lifestyle,3,255.1815,Credit card,9.3
+Yangon,Normal,Female,Health and beauty,3,49.77,Cash,9.5
+Mandalay,Member,Female,Electronic accessories,5,181.0725,Credit card,9
+Mandalay,Member,Female,Food and beverages,10,888.615,Credit card,9
+Mandalay,Member,Male,Home and lifestyle,7,271.2885,Ewallet,6.7
+Mandalay,Normal,Male,Electronic accessories,7,640.038,Cash,5.5
+Yangon,Normal,Male,Home and lifestyle,3,252.252,Cash,5.4
+Naypyitaw,Normal,Male,Fashion accessories,2,180.873,Cash,8.2
+Mandalay,Member,Male,Fashion accessories,2,104.832,Credit card,7
+Yangon,Normal,Female,Food and beverages,4,313.572,Cash,8.5
+Mandalay,Member,Male,Food and beverages,6,167.58,Ewallet,4.9
+Mandalay,Normal,Female,Electronic accessories,1,26.7225,Credit card,5.1
+Mandalay,Normal,Female,Food and beverages,1,71.1585,Credit card,6.5
+Naypyitaw,Member,Male,Food and beverages,4,250.278,Cash,9.8
+Yangon,Normal,Male,Health and beauty,4,244.23,Cash,8.4
+Yangon,Member,Female,Sports and travel,9,921.186,Ewallet,7.4
+Naypyitaw,Normal,Male,Health and beauty,7,734.706,Cash,6.1
+Naypyitaw,Normal,Male,Electronic accessories,7,708.3195,Cash,6
+Mandalay,Normal,Female,Fashion accessories,5,334.4775,Ewallet,8.5
+Mandalay,Normal,Female,Health and beauty,2,30.996,Ewallet,4.3
+Mandalay,Member,Male,Health and beauty,8,520.8,Credit card,6.2
+Naypyitaw,Member,Male,Electronic accessories,10,864.57,Ewallet,4.3
+Mandalay,Member,Male,Health and beauty,8,633.108,Credit card,8.4
+Yangon,Normal,Female,Food and beverages,5,296.94,Credit card,4.5
+Mandalay,Normal,Female,Sports and travel,10,804.3,Ewallet,6
+Yangon,Normal,Male,Electronic accessories,2,121.863,Ewallet,8.8
+Mandalay,Normal,Male,Fashion accessories,10,183.645,Ewallet,6.6
+Naypyitaw,Member,Female,Electronic accessories,1,63.9975,Ewallet,5.9
+Naypyitaw,Normal,Male,Health and beauty,1,42.3675,Ewallet,6.2
+Mandalay,Normal,Female,Home and lifestyle,10,1022.49,Ewallet,4.4
+Yangon,Member,Male,Food and beverages,1,33.432,Cash,7.7
+Yangon,Normal,Male,Home and lifestyle,1,69.111,Cash,4.1
+Yangon,Member,Female,Fashion accessories,7,649.299,Cash,6.6
