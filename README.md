@@ -90,7 +90,7 @@ On Day 5, student teams present their projects to a panel of **Graves faculty, M
 
 ## 📬 Contact
 
-For inquiries about the program, please contact the **INNS Department, Graves School of Business & Management**  
+For inquiries about the program, please contact the **INSS Department, Graves School of Business & Management**  
 📧 [graves.school@morgan.edu](mailto:graves.school@morgan.edu)  
 🌐 [business.morgan.edu](https://business.morgan.edu)
 
