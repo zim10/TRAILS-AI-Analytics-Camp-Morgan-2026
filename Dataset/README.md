@@ -50,8 +50,8 @@ Pick a few of these — or invent your own!
 
 ## 🛠️ Tools You Can Use
 - **Microsoft Excel / Google Sheets** — sort, filter, PivotTables, charts (easiest start)
-- **Python** (pandas + matplotlib) — for groups who want a challenge
-- Any chart type: bar charts, pie charts, line graphs
+- **Python, Tableau** (pandas + matplotlib) — for groups who want a challenge
+- Any chart type: bar charts, pie charts, line graphs (use AI)
 
 ---
 
